@@ -1,0 +1,7 @@
+{
+  "host_splits_disjoint": true,
+  "primary_direct_design_checks": true,
+  "fixed_effects_direct_design_checks": true,
+  "all_orthogonality_and_rank_checks": true,
+  "price_rating_review_cohort_bounds": true
+}

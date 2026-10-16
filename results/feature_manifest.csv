@@ -1,0 +1,66 @@
+feature,unique_values,missing_fraction,group
+accommodates,16,0.0,Property
+bedrooms,14,0.00038567955059948017,Property
+beds,25,0.025136245493418294,Property
+bathroom_count,25,0.001626561582963025,Property
+bathroom_shared,2,0.0015259495262848997,Property
+host_days,189,0.0,Host
+host_response_rate,0,1.0,Host
+host_acceptance_rate,0,1.0,Host
+host_listings_count,147,0.0,Host
+minimum_nights,83,0.004997065481680221,Booking context
+maximum_nights,247,0.004997065481680221,Booking context
+number_of_reviews,592,0.0,Reviews
+reviews_per_month,936,0.20273329420642242,Reviews
+review_scores_rating,181,0.20273329420642242,Reviews
+review_scores_accuracy,172,0.20278360023476147,Reviews
+review_scores_cleanliness,198,0.20278360023476147,Reviews
+review_scores_checkin,163,0.20278360023476147,Reviews
+review_scores_communication,157,0.2028003689108745,Reviews
+quote_stay_nights,88,0.0,Booking context
+quote_lead_days,368,0.0,Booking context
+scrape_day,6,0.0,Booking context
+amenity_wifi,2,0.0,Amenities
+amenity_kitchen,2,0.0,Amenities
+amenity_washer,2,0.0,Amenities
+amenity_dryer,2,0.0,Amenities
+amenity_dishwasher,2,0.0,Amenities
+amenity_heating,2,0.0,Amenities
+amenity_air_conditioning,2,0.0,Amenities
+amenity_dedicated_workspace,2,0.0,Amenities
+amenity_parking,2,0.0,Amenities
+amenity_elevator,2,0.0,Amenities
+amenity_private_outdoor,2,0.0,Amenities
+amenity_pool,2,0.0,Amenities
+amenity_hot_tub,2,0.0,Amenities
+amenity_gym,2,0.0,Amenities
+amenity_breakfast,2,0.0,Amenities
+amenity_tv,2,0.0,Amenities
+amenity_self_checkin,2,0.0,Amenities
+amenity_smoke_alarm,2,0.0,Amenities
+amenity_carbon_monoxide_alarm,2,0.0,Amenities
+amenity_fire_extinguisher,2,0.0,Amenities
+amenity_first_aid,2,0.0,Amenities
+amenity_crib,2,0.0,Amenities
+amenity_high_chair,2,0.0,Amenities
+amenity_pets_allowed,2,0.0,Amenities
+amenity_luggage_dropoff,2,0.0,Amenities
+amenity_coffee_maker,2,0.0,Amenities
+amenity_oven,2,0.0,Amenities
+amenity_refrigerator,2,0.0,Amenities
+amenity_bathtub,2,0.0,Amenities
+amenity_hair_dryer,2,0.0,Amenities
+amenity_long_stays,2,0.0,Amenities
+distance_km,56444,0.0,Location
+latitude,32178,0.0,Location
+longitude,39628,0.0,Location
+property_type,84,0.0,Property
+room_type,4,0.0,Property
+host_response_time,1,0.0,Host
+host_is_superhost,2,0.0,Host
+host_has_profile_pic,2,0.0,Host
+host_identity_verified,2,0.0,Host
+instant_bookable,1,0.0,Booking context
+quote_month,12,0.0,Booking context
+quote_weekday,7,0.0,Booking context
+neighbourhood_cleansed,33,0.0,Location

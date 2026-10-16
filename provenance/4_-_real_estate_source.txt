@@ -1,0 +1,237 @@
+ppt/slides/slide1.xml
+Real Estate price prediction
+Bondarenko
+ Artem, Likhachev 
+Grigoriy
+, 
+Oreshin
+ Konstantin, 
+Shvora
+ Nikolay
+Faculty of Economic Sciences
+Moscow
+, 20
+2
+2
+
+ppt/slides/slide2.xml
+Implication of the research
+The main goal of the research is to predict the price of the apartment
+This study uses and compares different models in order to find the one that fits best to reach the goal above and
+ 
+to find significant factors that have an influence on pricing on real estate market.
+The research can be useful for two parties:
+economists 
+(
+learning determinants of pricing on real estate market and instruments of estimation)
+realtors (learning determinants of pricing, what mostly contributes to the price and what characteristics to make an attention of a buyer on; getting the prediction of fair prices on the market)
+
+ppt/slides/slide3.xml
+Data structure
+Our 
+regressors
+: 
+House price of unit area (Y)
+Distance to the nearest MRT station (X3) 
+Number of convenience stores (X4)
+House age (X2)
+Transaction date
+ (
+X1)
+Latitude (X5)
+Longitude (X6)
+
+ppt/slides/slide4.xml
+Data structure
+ 
+Correlation matrix
+We assume a constant effect of geo-positioning within a neighborhood on prices and the presence of 
+multicollinearity
+ because of the logical relationship with other variables indirectly indicating the location of a facility, and therefore we remove these predictors from the sample
+ (
+X5 and X6)
+
+ppt/slides/slide5.xml
+Linear regression
+We have a problem with endogeneity because of missing variables, so we will focus on 
+MAPE
+ and 
+RMSE
+ instead of  R-squared and R-squared adj
+Train 
+RMSE
+ = 
+8.127
+
+ppt/slides/slide6.xml
+Linear regression
+Test 
+RMSE
+ = 
+11.607 (
+Train 
+RMSE
+ = 
+8.127)
+ 
+
+ppt/slides/slide7.xml
+Linear regression
+Train 
+MAPE
+ = 
+0.2004
+                                             Test 
+MAPE
+ = 
+0.2094
+ 
+
+ppt/slides/slide8.xml
+ElasticNet
+ 
+with train hyper-parameters
+Train 
+RMSE
+ = 
+8.221
+                                             Test 
+RMSE
+ = 
+11.713
+ 
+
+ppt/slides/slide9.xml
+ElasticNet
+ 
+with train hyper-parameters
+Train 
+MAPE
+ = 
+0.2064
+                                             Test 
+MAPE
+ = 
+0.2226
+ 
+
+ppt/slides/slide10.xml
+Random forest
+Base model 
+We have base model of random
+ 
+forest with parameters
+ 
+min_sample_split
+ = 4, 
+n_estiators
+ = 100   
+Estimation 
+Test : RMSE = 9,76, MAPE = 0,1297
+Train : RMSE = 3,309; MAPE = 0,0628
+
+ppt/slides/slide11.xml
+Random forest
+Optuna
+The optimal parameters was chosen 
+ 
+min_sample_leaf
+ = 3, 
+n_estiators
+ = 174, min-
+samples_split
+ = 2, 
+max_depth
+ = 6, 
+random_estate
+ = 1703   
+Estimation 
+Test : RMSE = 9,86, MAPE = 0,1399
+Train : RMSE = 
+5
+,045; MAPE = 0,09946
+ 
+
+ppt/slides/slide12.xml
+Random forest
+
+ppt/slides/slide13.xml
+Random forest
+
+ppt/slides/slide14.xml
+CATBOOST regression 
+Why we decided to use it:
+High forecast accuracy
+Greater flexibility
+As a rule, no 
+pr
+е
+processing is required
+The gradient boosting algorithm works great with both numeric and categorical data
+Handing missing data
+This method also has disadvantages:
+Sensitivity to overfitting the presence of noisy data
+High cost of training
+Difficult setting due to the large number of parameters 
+
+ppt/slides/slide15.xml
+CATBOOST regression 
+Base model
+Test: RMSE = 10,2053, MAPE = 0,177986 
+Train: RMSE =  7,5967, MAPE = 0,172099
+
+ppt/slides/slide16.xml
+CATBOOST regression 
+Optuna
+Test: RMSE = 10,
+0761
+, MAPE = 0,1
+39375
+ 
+Train: RMSE =  
+3,64953
+, MAPE = 0,
+0824673
+
+ppt/slides/slide17.xml
+CATBOOST regression 
+
+ppt/slides/slide18.xml
+CATBOOST regression 
+
+ppt/slides/slide19.xml
+XGBOOST regression 
+Base model
+Test: RMSE = 
+9,9269
+, MAPE = 0,
+138378
+ 
+Train: RMSE =  
+4,07673
+, MAPE = 0,
+0876119
+
+ppt/slides/slide20.xml
+XGBOOST regression 
+Optuna
+Test: RMSE = 10
+,5857
+, MAPE = 0,
+148616
+ 
+Train: RMSE =  0,559911, MAPE = 0,
+0876119
+
+ppt/slides/slide21.xml
+XGBOOST regression 
+
+ppt/slides/slide22.xml
+XGBOOST regression 
+
+ppt/slides/slide23.xml
+Result
+Best model
+RandomForestRegression
+
+ppt/slides/slide24.xml

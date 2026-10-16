@@ -1,0 +1,56 @@
+{
+  "raw_rows": 91954,
+  "raw_columns": 90,
+  "raw_hosts": 51348,
+  "duplicates": 0,
+  "missing_prices": 32049,
+  "all_empty_columns": 15,
+  "currency_counts": {
+    "GBP": 60028
+  },
+  "quote_pairs": 59761,
+  "quote_matches": 59761,
+  "cohort": 59635,
+  "hosts": 28908,
+  "splits": {
+    "train": {
+      "rows": 36331,
+      "hosts": 17344
+    },
+    "validation": {
+      "rows": 11400,
+      "hosts": 5782
+    },
+    "holdout": {
+      "rows": 11904,
+      "hosts": 5782
+    }
+  },
+  "hypothesis_rows": 46553,
+  "hypothesis_hosts": 23561,
+  "scrape_dates": {
+    "2026-09-19": 22635,
+    "2026-09-18": 18975,
+    "2026-09-21": 17477,
+    "2026-09-20": 15121,
+    "2026-09-22": 12683,
+    "2026-09-23": 5063
+  },
+  "hashes": {
+    "london_2026-06-19.csv.gz": "f32fbf1bdd3a4fcdb58ffe901b4ac20d8614f77cd36f1e3bbd18523e6e2acabd",
+    "split.csv": "bd474ede43770b629676e9048d25960ee41646a7e018f0b8c3872824d2b9f2e8",
+    "london_2026-09-17.csv.gz": "8017870734a9bffa1b424937372e5f02f8c4a114e5060534d7423be5fd718b4c"
+  },
+  "forbidden": [
+    "price",
+    "price_quote_raw",
+    "price_quote_total_price",
+    "price_quote_price_per_night",
+    "review_scores_value",
+    "review_scores_location",
+    "host_id",
+    "id",
+    "estimated_revenue_l365d",
+    "estimated_occupancy_l365d"
+  ]
+}

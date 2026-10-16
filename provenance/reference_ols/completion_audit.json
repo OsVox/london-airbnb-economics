@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "goal": "find a non-trivial hypothesis from this dataset which is significant and provable from the data",
+  "evidence": {
+    "nontrivial_economic_hypothesis": "Same rating improvement has a larger asking-price association at 100 than 10 reviews: an information-precision interaction, distinct from a generic quality premium.",
+    "explicit_statistical_test": "Direct difference of rating coefficients; positive slope at 100 reviews plus positive slope difference; joint max-p test.",
+    "measured_dataset": "September London raw data; 46,553 eligible listings; original host-disjoint samples independently verified.",
+    "significance": "September training, validation and holdout joint tests pass correction for 21 counted substantive hypotheses.",
+    "replication": "June same-source London snapshot and 3,143 listings from 2,440 hosts absent from ALL September raw rows; both corrected tests pass.",
+    "robustness": "All planned checks pass joint ordinary 95% thresholds. September host-FE holdout fails stricter correction (p=.317), explicitly reported; every June planned check passes correction.",
+    "shape_diagnostics": "All eight post-result curved-main-effect/high-rating checks pass correction; separately labelled post-result.",
+    "causal_scope": "Empirical conditional hypothesis established with uncertainty. Information mechanism, causal effects and universal validity are not proved and are explicitly disclaimed.",
+    "failed_searches": "Both preceding group-travel hypotheses retained and linked, no unsupported candidate reclassified.",
+    "verification": "Source/code/plan hashes, raw cohort reconstruction, separate-host exclusion, direct OLS and independent contrast arithmetic passed; report local links valid; chart visually reviewed."
+  }
+}

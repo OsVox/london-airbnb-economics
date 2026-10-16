@@ -1,0 +1,25 @@
+requirement,notebook_section_or_file,slides,status,evidence_or_limitation
+Russian narrative and English code,0–9,1–54,Done,Names omitted; no classification conversion
+"Motivation, target, primary research",1,"1–4,37",Done,Verified primary abstracts; no novelty claim
+Course brief and 2022 examples read,9; provenance/,"4,37",Done,Examples are not a grading rubric
+"Data counts, units, missingness, exclusions",2,5–6,Done,GBP verified from quotes; no target imputation
+Two cohort denominators and host separation,"2,4","5–6,16",Done,Membership files and independent split reconstruction
+"Price/log, rating/reviews, location EDA",3,7–9; notebook review histogram,Done,"Training-only, unadjusted descriptions"
+Exact OLS formula and direct interaction inference,4,"11,19–20",Done,"Full covariance, host-cluster t, direct-design checks"
+"Composite test, correction, failures",4,"11,16,21–27",Done,40 fits rerun; September within-host failure visible
+June and separate-host checks,4,"16,20,24–27",Done,Exclude hosts in entire September raw data
+"Median, OLS/Ridge, tree, forest, XGBoost",5,"10,12–13,28–29",Done,Same main cohort and split; modest validation grid
+Train/validation/test metrics and bootstrap,5,"13,29–31",Done,Bootstrap conditional on fixed fitted models
+Grouped development CV,6,15,Done,Three host folds with fold-fitted preprocessing; not fresh/nested validation
+Matched review feature ablation,6,"15,32",Done,OLS explicit interaction; trees can interact without product
+Grouped permutation importance,7.1,33,Done,Raw related groups jointly shuffled before encoding
+TreeSHAP summary/dependence/background,7.2,"14,34",Done,Exact native TreeSHAP; uniform1000 sample; training-path background
+"Supported two-variable response, fixed contrasts",7.3,"8,14,35",Done,"Support counts, masked response grid in notebook; conditional model diagnostic"
+Representative local examples and error audit,7.4,"13,30,36",Done,Rule-selected examples; full individual contribution chart in notebook
+Full coefficient appendix,"4,6; results CSV","19,38–54",Done,All136 primary-training coefficients; rank135 caveat
+Integrated conclusion and causal limits,8,"14,16–18",Done,XGBoost interaction much weaker than OLS
+Executed notebook and helper reproducibility,9; README,37; notes,Done,Clean kernel; pinned Python dependencies and data SHA256
+"Editable PPTX, PDF, speaker notes",Deliverables,1–54,Done,18 main slides plus36 appendix; PPTX charts/tables native; PDF page34 uses image render
+New untouched confirmation sample,Limitations,"6,16–18",Not available,No genuinely new data used; both snapshots already examined
+Team names and rehearsals,9; README,4; notes,Pending human input/action,Names not supplied; two rehearsals recommended but not claimed completed
+Native PowerPoint application check,README,All,Not performed,PPTX package/import/geometry validated and rendered; PowerPoint itself not opened

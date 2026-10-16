@@ -1,0 +1,66 @@
+feature,group,source_note,nonmissing_after_input_preparation,unique_values,varies
+accommodates,property_host_quality,one structured field or transparent transformation,59635,16,True
+bedrooms,property_host_quality,one structured field or transparent transformation,59612,14,True
+beds,property_host_quality,one structured field or transparent transformation,58136,25,True
+bathroom_count,property_host_quality,one structured field or transparent transformation,59538,25,True
+bathroom_shared,property_host_quality,one structured field or transparent transformation,59544,2,True
+host_days,property_host_quality,one structured field or transparent transformation,59635,189,True
+host_response_rate,property_host_quality,one structured field or transparent transformation,0,0,False
+host_acceptance_rate,property_host_quality,one structured field or transparent transformation,0,0,False
+host_listings_count,property_host_quality,one structured field or transparent transformation,59635,147,True
+minimum_nights,property_host_quality,one structured field or transparent transformation,59337,83,True
+maximum_nights,property_host_quality,one structured field or transparent transformation,59337,247,True
+number_of_reviews,property_host_quality,one structured field or transparent transformation,59635,592,True
+reviews_per_month,property_host_quality,one structured field or transparent transformation,47545,936,True
+review_scores_rating,property_host_quality,one structured field or transparent transformation,47545,181,True
+review_scores_accuracy,property_host_quality,one structured field or transparent transformation,47542,172,True
+review_scores_cleanliness,property_host_quality,one structured field or transparent transformation,47542,198,True
+review_scores_checkin,property_host_quality,one structured field or transparent transformation,47542,163,True
+review_scores_communication,property_host_quality,one structured field or transparent transformation,47541,157,True
+quote_stay_nights,booking_context,one structured field or transparent transformation,59635,88,True
+quote_lead_days,booking_context,one structured field or transparent transformation,59635,368,True
+scrape_day,booking_context,one structured field or transparent transformation,59635,6,True
+amenity_wifi,amenity_content,derived from amenities list,59635,2,True
+amenity_kitchen,amenity_content,derived from amenities list,59635,2,True
+amenity_washer,amenity_content,derived from amenities list,59635,2,True
+amenity_dryer,amenity_content,derived from amenities list,59635,2,True
+amenity_dishwasher,amenity_content,derived from amenities list,59635,2,True
+amenity_heating,amenity_content,derived from amenities list,59635,2,True
+amenity_air_conditioning,amenity_content,derived from amenities list,59635,2,True
+amenity_dedicated_workspace,amenity_content,derived from amenities list,59635,2,True
+amenity_parking,amenity_content,derived from amenities list,59635,2,True
+amenity_elevator,amenity_content,derived from amenities list,59635,2,True
+amenity_private_outdoor,amenity_content,derived from amenities list,59635,2,True
+amenity_pool,amenity_content,derived from amenities list,59635,2,True
+amenity_hot_tub,amenity_content,derived from amenities list,59635,2,True
+amenity_gym,amenity_content,derived from amenities list,59635,2,True
+amenity_breakfast,amenity_content,derived from amenities list,59635,2,True
+amenity_tv,amenity_content,derived from amenities list,59635,2,True
+amenity_self_checkin,amenity_content,derived from amenities list,59635,2,True
+amenity_smoke_alarm,amenity_content,derived from amenities list,59635,2,True
+amenity_carbon_monoxide_alarm,amenity_content,derived from amenities list,59635,2,True
+amenity_fire_extinguisher,amenity_content,derived from amenities list,59635,2,True
+amenity_first_aid,amenity_content,derived from amenities list,59635,2,True
+amenity_crib,amenity_content,derived from amenities list,59635,2,True
+amenity_high_chair,amenity_content,derived from amenities list,59635,2,True
+amenity_pets_allowed,amenity_content,derived from amenities list,59635,2,True
+amenity_luggage_dropoff,amenity_content,derived from amenities list,59635,2,True
+amenity_coffee_maker,amenity_content,derived from amenities list,59635,2,True
+amenity_oven,amenity_content,derived from amenities list,59635,2,True
+amenity_refrigerator,amenity_content,derived from amenities list,59635,2,True
+amenity_bathtub,amenity_content,derived from amenities list,59635,2,True
+amenity_hair_dryer,amenity_content,derived from amenities list,59635,2,True
+amenity_long_stays,amenity_content,derived from amenities list,59635,2,True
+property_type,property_host_quality,one structured field or transparent transformation,59635,84,True
+room_type,property_host_quality,one structured field or transparent transformation,59635,4,True
+host_response_time,property_host_quality,one structured field or transparent transformation,59635,1,False
+host_is_superhost,property_host_quality,one structured field or transparent transformation,59635,2,True
+host_has_profile_pic,property_host_quality,one structured field or transparent transformation,59635,2,True
+host_identity_verified,property_host_quality,one structured field or transparent transformation,59635,2,True
+instant_bookable,property_host_quality,one structured field or transparent transformation,59635,1,False
+quote_month,booking_context,one structured field or transparent transformation,59635,12,True
+quote_weekday,booking_context,one structured field or transparent transformation,59635,7,True
+distance_km,location,one structured field or transparent transformation,59635,56444,True
+latitude,location,one structured field or transparent transformation,59635,32178,True
+longitude,location,one structured field or transparent transformation,59635,39628,True
+neighbourhood_cleansed,location,one structured field or transparent transformation,59635,33,True

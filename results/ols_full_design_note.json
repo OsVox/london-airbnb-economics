@@ -1,0 +1,7 @@
+{
+  "n": 28152,
+  "columns": 136,
+  "rank": 135,
+  "hosts": 14088,
+  "note": "Numeric columns standardized. Some encoded controls may be aliased; minimum-norm coefficients are descriptive. Focus inference uses unscaled residualized terms and verified covariance."
+}

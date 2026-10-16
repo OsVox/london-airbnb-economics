@@ -1,0 +1,5 @@
+hypothesis,spec,split,n,hosts,clusters,composite_p,all_directions,all_cis_expected,p_adjusted_21,supported
+R,curved_main,june,47533,24259,24259,4.689849035277223e-46,True,True,9.848682974082167e-45,True
+R,curved_high_ratings,june,39272,22423,22423,1.6639283629496275e-36,True,True,3.4942495621942177e-35,True
+R,curved_main_new_hosts,june,3143,2440,2440,0.0015253394358352623,True,True,0.03203212815254051,True
+R,curved_high_ratings_new_hosts,june,2484,2091,2091,6.0418738876986596e-05,True,True,0.0012687935164167185,True

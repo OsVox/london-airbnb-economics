@@ -1,0 +1,7 @@
+*.csv.gz binary
+*.ipynb -text
+*.pptx binary
+*.pdf binary
+*.docx binary
+*.png binary
+*.joblib binary

@@ -1,0 +1,57 @@
+{
+  "raw_shape": [
+    91954,
+    90
+  ],
+  "raw_unique_listings": 91954,
+  "raw_unique_hosts": 51348,
+  "duplicate_ids": 0,
+  "missing_price": 32049,
+  "missing_price_pct": 34.85329621332405,
+  "positive_price_rows": 59905,
+  "valid_before_price_range": 59905,
+  "excluded_outside_price_range": 270,
+  "labelled_cohort": 59635,
+  "cohort_unique_hosts": 28908,
+  "scrape_dates": {
+    "2026-09-19": 22635,
+    "2026-09-18": 18975,
+    "2026-09-21": 17477,
+    "2026-09-20": 15121,
+    "2026-09-22": 12683,
+    "2026-09-23": 5063
+  },
+  "price_quantiles": {
+    "0.0": 10.0,
+    "0.01": 37.0,
+    "0.5": 174.0,
+    "0.99": 1055.945799999992,
+    "1.0": 2000.0
+  },
+  "room_types": {
+    "Entire home/apt": 40288,
+    "Private room": 19049,
+    "Shared room": 164,
+    "Hotel room": 134
+  },
+  "structured_source_fields_note": "30 non-location scalar/categorical inputs, several parsed from existing fields; 31 semantic amenity families derived from ONE raw amenities column; location adds four inputs. These are not 65 independent raw columns.",
+  "feature_counts": {
+    "P": 61,
+    "PD": 62,
+    "PL": 65
+  },
+  "splits": {
+    "train": {
+      "listings": 36331,
+      "hosts": 17344
+    },
+    "validation": {
+      "listings": 11400,
+      "hosts": 5782
+    },
+    "holdout": {
+      "listings": 11904,
+      "hosts": 5782
+    }
+  }
+}

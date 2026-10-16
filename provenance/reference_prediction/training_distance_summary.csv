@@ -1,0 +1,21 @@
+room_type,distance_band,n,median_price
+Entire home/apt,"(-0.001, 3.0]",4659,329.0
+Entire home/apt,"(3.0, 6.0]",8938,240.0
+Entire home/apt,"(6.0, 10.0]",5511,199.0
+Entire home/apt,"(10.0, 15.0]",3556,188.0
+Entire home/apt,"(15.0, 1000.0]",1987,171.0
+Hotel room,"(-0.001, 3.0]",10,329.5
+Hotel room,"(3.0, 6.0]",46,318.0
+Hotel room,"(6.0, 10.0]",6,148.5
+Hotel room,"(10.0, 15.0]",4,211.0
+Hotel room,"(15.0, 1000.0]",18,78.5
+Private room,"(-0.001, 3.0]",1303,109.0
+Private room,"(3.0, 6.0]",2878,90.0
+Private room,"(6.0, 10.0]",2962,78.315
+Private room,"(10.0, 15.0]",2477,70.0
+Private room,"(15.0, 1000.0]",1879,63.0
+Shared room,"(-0.001, 3.0]",26,23.0
+Shared room,"(3.0, 6.0]",37,36.0
+Shared room,"(6.0, 10.0]",13,38.0
+Shared room,"(10.0, 15.0]",14,59.75
+Shared room,"(15.0, 1000.0]",7,55.0

@@ -1,0 +1,1 @@
+PASS: hashes, original cohort independently rebuilt, host separation, 11 fits, 22 component and 33 illustrative contrasts, confidence intervals and p-values, composite tests, multiplicity adjustments and decisions. Direct OLS covariance checks passed in estimation.

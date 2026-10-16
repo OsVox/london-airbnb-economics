@@ -1,0 +1,8 @@
+{
+  "method": "Exact native XGBoost TreeSHAP, pred_contribs=True, approx_contribs=False",
+  "background": "Training tree path frequencies (tree-path-dependent), no separate interventional background",
+  "sample": "Uniform 1000 rows without replacement from original holdout, seed20261016",
+  "units": "log(price)",
+  "aggregation": "one-hot and missingness indicators summed to source feature; additivity verified",
+  "max_additivity_error": 9.059906005859375e-06
+}

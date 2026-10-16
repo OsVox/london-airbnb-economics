@@ -1,0 +1,10 @@
+R curved_main train [('rating_slope_at_100_reviews', 0.4841, 1.6471749350309947e-62), ('rating_slope_100_minus_10', 0.2003, 5.361997413899407e-20)]
+R curved_main holdout [('rating_slope_at_100_reviews', 0.5471, 3.145187903531022e-37), ('rating_slope_100_minus_10', 0.26, 3.0155396504157974e-16)]
+R curved_high_ratings train [('rating_slope_at_100_reviews', 0.6959, 6.398243516522627e-75), ('rating_slope_100_minus_10', 0.3079, 2.4055978369764774e-23)]
+R curved_high_ratings holdout [('rating_slope_at_100_reviews', 0.7416, 1.4162068026602505e-29), ('rating_slope_100_minus_10', 0.3864, 9.52250733699812e-12)]
+Empty DataFrame
+Columns: [hypothesis, spec, split, n, hosts, clusters, composite_p, all_directions, all_cis_expected, p_adjusted_21, supported]
+Index: []
+
+/Users/andrejvorsin/Documents/ChatGPT/Academic/projects/econ-dataset-search/.venv/lib/python3.12/site-packages/sklearn/preprocessing/_encoders.py:262: UserWarning: Found unknown categories in columns [0] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(msg, UserWarning)

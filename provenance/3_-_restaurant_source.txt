@@ -1,0 +1,311 @@
+         Faculty of Economic Science   Economics   Moscow 2022
+
+
+
+
+Restaurant Recommendation
+Challenge
+
+Team : Just Do IT (orange)
+
+
+
+
+                                                                 1
+  Economic Applications of   Restaurant Recommendation   [0/5] Presentation Plan
+  Machine Learning           Challenge                                             2 /14
+
+Road map:
+   ● Introduction
+
+   ● Data
+       ○ Data description
+       ○ Data preprocessing
+
+   ● Models
+       ○ Linear model
+       ○ Logistic model
+       ○ Random forest
+
+   ● Old VS New
+
+   ● Conclusions
+                                                                                           2
+   Economic Applications of   Restaurant Recommendation   [1/5] Presentation Plan
+   Machine Learning           Challenge                                             3 /14
+
+Set of task
+ ● What can influence the preparation time of the food place?
+   ○ Why: preparation time ~ quality of the place
+   ○ Solution: linear model
+
+ ● With what probability a customer will choose a restaurant over not-restaurant
+   (sweets & bakes)?
+    ○ Why: to make recommendations of food places more precise
+    ○ Solution: logistic model
+
+ ● How to recommend a certain place to eat?
+   ○ Why: people always face this difficult choice
+   ○ Solution: random forest
+
+
+
+                                                                                            3
+      Economic Applications of   Restaurant Recommendation   [2/5] Data
+      Machine Learning           Challenge                                     4 /14
+
+Data description
+Orders - the record of all orders made
+by customers in all of the vendors
+included in this kaggle competition
+
+Vendors - contains information about
+different vendors
+
+Locations - info about each location
+where customer made orders
+
+Customers - contains descriptive
+information about the customers
+Kaggle author’s data preparation:
+● All datasets except Vendors and Orders were splitted into _train and _test
+● Splitted samples were merged with each other into train_full and test_full
+                                                                                       4
+    Economic Applications of   Restaurant Recommendation   [2/5] Data
+    Machine Learning           Challenge                                                                                 5 /14
+
+
+
+Data preprocessing
+                                                                                gender       status       verified        language
+Table Customer
+                                                                        count      22517        34674         34674           21099
+● Cleaning gender variable (lowercase, remove
+                                                                        mean     0,920993    0,998991      0,956538                  1
+  extra spaces)
+                                                                         std
+● Binary encoding of gender variable:                                            0,269756    0,031756      0,203898                  0
+
+  male, female –> 1, 0                                                  min              0            0              0               1
+
+● Encoding language variable:                                           25%              1            1              1               1
+
+  En, np.nan –> 1, np.nan                                               50%              1            1              1               1
+● Drop dob variable (due to 91% NaN values)                             75%              1            1              1               1
+
+                                                                        max              1            1              1               1
+
+
+
+
+                                                                                                                                         5
+    Economic Applications of   Restaurant Recommendation    [2/5] Data
+    Machine Learning           Challenge                                                                                         6 /14
+
+
+
+Data preprocessing
+                                                                   location_number       latitude   longitude    Home       Other       Work
+Table Locations
+                                                           count              59503         59497       59497      59503      59503       59503
+● Replace NaN values in location_type
+                                                           mean
+  with “Other” value                                                        0,753592     2,361135     -25,1154   0,331126   0,560627    0,108247
+
+● One-Hot encoding of location_type                         std             1,355645     22,73411    36,94601    0,470622   0,496315    0,310694
+
+  variable                                                 min                       0   -1038,15     -134,415          0           0          0
+
+                                                           25%                       0   -0,50259     -78,5226          0           0          0
+
+                                                           50%                       0   -0,08786    0,021342           0           1          0
+
+                                                           75%                       1   0,261727    0,514671           1           1          0
+
+                                                           max                   29      453,6538    45,35423           1           1          1
+
+
+
+
+                                                                                                                                                   6
+    Economic Applications of   Restaurant Recommendation   [2/5] Data
+    Machine Learning           Challenge                                                      7 /14
+
+
+
+Data preprocessing
+Table Orders
+● One-Hot encoding of location_type variable
+● Binary encoding of is_favourite variable:
+  Yes, No –> 1, 0
+● Binary encoding of is_rated variable:                       Table Train_full
+  Yes, No –> 1, 0
+                                                               ● All previous preprocessing
+Table Vendor
+● Label Encoding of all categorical features
+● Drop variables that cause multicollinearity
+● Fill NaN values with median values
+
+                                                                                                      7
+    Economic Applications of   Restaurant Recommendation    [3/5] Models
+    Machine Learning           Challenge                                                                        8 /14
+
+
+Forecasting the preparation time
+We used Linear Regression model with:
+                                                                    Sample   MAE     MSE     R-sq    Sample   MAE     MSE      R-sq
+➢ Dataset                                                           train    1.157   3.313   0.845   train    3.765   25.932   0.496
+                                                           OLS
+   ○ Orders                                                         test     4.012 23.414 -2.609     test     3.817   26.828   0.479
+➢ Target                                                            train    1.157   3.313   0.845   train    3.765   25.932   0.496
+   ○ preparation time                                      GLS
+                                                                    test     4.012 23.414 -2.609     test     3.817   26.828   0.479
+➢ Features                                                          train    1.157   3.313   0.845   train    3.765   25.932   0.496
+   ○ item_count, grand_total,                              WLS
+                                                                    test     4.012 23.414 -2.609     test     3.817   26.828   0.479
+      vendor_discount_amount, is_favorite,                          train                            train    3.767   25.954   0.495
+                                                                             1.734   6.156   0.713
+      is_rated, vendor_rating, driver_rating,              Lasso
+                                                                                                     test
+                                                                    test     2.753 12.147 -0.872              3.816   26.856   0.479
+      delivery_distance, preparation_time                                                            train    3.765   25.932   0.496
+                                                                    train    1.235   3.487   0.837
+➢ Pipeline                                                 Ridge
+                                                                                                     test     3.817   26.828   0.479
+                                                                    test     3.502 19.061 -1.938
+   ○ Train Test split
+   ○ Standard Scaling                                               Replication model                         Our model
+   ○ Run Regressions
+                                                                                                                                       8
+   Economic Applications of   Restaurant Recommendation              [3/5] Models
+   Machine Learning           Challenge                                                           9 /14
+
+
+Forecasting the preparation time
+                                                     Feature                        Coefficient
+
+                                                    item count                          0
+
+                                                    grand total                       0.155
+
+                                            vendor discount amount                    0.019
+
+                                                    is favorite                         0
+
+                                                      is rated                        -0.337
+
+                                                  vendor rating                         0
+
+                                                   driver rating                        0
+
+                                                delivery distance                     4.938
+
+                                                          const                       43.875
+
+
+                                                                                                          9
+     Economic Applications of   Restaurant Recommendation   [3/5] Models
+     Machine Learning           Challenge                                                       10 /14
+
+Predicting vendor category
+Logistic regression model:
+➢ Dataset:
+   ○ Train full
+➢ Target – vendor category:
+   ○ 1 - Restaurant
+   ○ 0 - Other
+➢ Features:
+   ○ gender, verified, work, home, other, delivery
+      charge, serving distance, preparation time,
+      discount percentage, vendor rating, rank                             Threshold = 0.85
+➢ Pipeline:
+                                                                   precision             0.96
+   ○ filter only completed orders
+   ○ train test split                                                recall              0.85
+   ○ standard scaling                                              f1-score              0.90
+   ○ fit model
+   ○ determine threshold
+                                                                                                         10
+   Economic Applications of   Restaurant Recommendation               [3/5] Models
+   Machine Learning           Challenge                                                            11 /14
+
+Predicting vendor category
+
+                                                          Feature                    Coefficient
+                                                          gender                       -0.23
+                                                          verified                      0.60
+                                                   delivery charge                      1.89
+                                                  serving distance                     -0.11
+                                                  preparation time                     -0.13
+                                                discount percentage                    -0.07
+                                                           rank                         0.09
+                                                    vendor rating                      -0.79
+                                                          home                          1.05
+
+
+
+
+                                                                                                            11
+     Economic Applications of   Restaurant Recommendation   [3/5] Models
+     Machine Learning           Challenge                                                                     12 /14
+
+Recommendation engine
+Random forest classifier
+                                                             max_depth=6, verbose=1, n_estimators=13, criterion='entropy'
+➢ Dataset:
+   ○ Train full, test full                                                         Replication model
+➢ Target – vendor category:
+                                                                                   precision   recall     f1-score
+   ○ multiclass classification. Predicting set
+      of tags                                                         macro avg      0.97      0.97         0.97
+➢ Features:                                                         weighted avg     0.96      0.98         0.97
+   ○ gender, verified, work, home, other,
+      delivery charge, serving distance,
+      preparation time, etc
+                                                                           Our model after cross validation
+➢ Pipeline:                                                                     on Test full dataset
+   ○ train and validation split
+   ○ fit model                                                                     precision   recall     f1-score
+
+   ○ cross validation                                                 macro avg      0.98      0.98         0.97
+   ○ final test on Test full dataset                                weighted avg     0.97      0.98         0.97
+                                                                                                                            12
+    Economic Applications of   Restaurant Recommendation   [4/5] Old VS New
+    Machine Learning           Challenge                                                             13 /14
+
+
+Old version vs New version
+
+1. Linear Model                                            1. Linear Model
+   Great results only for train                                   Great results for train and test
+2. Logistic model                                          2. Logistic model
+   Great results only for train. Wrong                            Same results for train, we do have
+   data                                                           good results for test and on
+   bjhnjmkl;,                                                     correct data. +Standard scaling
+3. Random forest                                           3. Random forest
+   Only train                                                     Train + Test, cross-validation
+
+
+
+                                                                                                              13
+    Economic Applications of   Restaurant Recommendation   [5/5] Conclusions
+    Machine Learning           Challenge                                             14 /14
+
+
+Summary
+
+● Previous results were replicated and upgraded. Errors were corrected.
+
+● Linear model was improved significantly, new R-square is positive, though not very big
+  (0.47).
+
+● Logistic model has ROC AUC score 0.85.
+
+● Random Forest has 0.97 F1 score.
+
+
+● All three tasks were completed.
+
+
+                                                                                              14
+

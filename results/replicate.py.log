@@ -1,0 +1,14 @@
+R primary june [('rating_slope_at_100_reviews', 0.4932, 6.925723314117114e-114), ('rating_slope_100_minus_10', 0.2523, 2.028863854423523e-76)]
+R new_hosts june [('rating_slope_at_100_reviews', 0.3759, 1.6621148760798066e-07), ('rating_slope_100_minus_10', 0.197, 3.4030683207734965e-05)]
+R quadratic_controls june [('rating_slope_at_100_reviews', 0.4983, 1.5858909104886265e-122), ('rating_slope_100_minus_10', 0.254, 5.1155884541755706e-77)]
+R equal_host_weights june [('rating_slope_at_100_reviews', 0.5777, 2.1658733373433198e-145), ('rating_slope_100_minus_10', 0.309, 7.18191369081913e-89)]
+R borough_cluster june [('rating_slope_at_100_reviews', 0.4932, 1.3229544993460393e-23), ('rating_slope_100_minus_10', 0.2523, 5.791893528467398e-22)]
+R middle_price_range june [('rating_slope_at_100_reviews', 0.4735, 2.552291411131688e-112), ('rating_slope_100_minus_10', 0.2429, 2.0419859950287327e-74)]
+R host_fixed_effects june [('rating_slope_at_100_reviews', 0.224, 2.0302030660205142e-24), ('rating_slope_100_minus_10', 0.1175, 2.580421558456713e-15)]
+R grid_fixed_effects june [('rating_slope_at_100_reviews', 0.4643, 4.1178025373871e-108), ('rating_slope_100_minus_10', 0.2368, 2.2005512884956155e-71)]
+R rating_subscores june [('rating_slope_at_100_reviews', 0.4308, 7.084019939565314e-79), ('rating_slope_100_minus_10', 0.2402, 9.264995583536745e-71)]
+R entire_home_only june [('rating_slope_at_100_reviews', 0.5216, 1.2361263351958386e-90), ('rating_slope_100_minus_10', 0.2755, 3.606540365143059e-66)]
+R private_room_only june [('rating_slope_at_100_reviews', 0.3826, 1.1297686198022446e-25), ('rating_slope_100_minus_10', 0.1834, 3.759705647008037e-15)]
+hypothesis    spec split     n  hosts  clusters  composite_p  all_directions  all_cis_expected  p_adjusted_21  supported
+         R primary  june 47533  24259     24259 2.028864e-76            True              True   4.260614e-75       True
+

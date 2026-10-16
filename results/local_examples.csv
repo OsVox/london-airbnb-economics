@@ -1,0 +1,4 @@
+id,host_id,room_type,price_gbp,review_scores_rating,number_of_reviews,prediction_log,base_log,error_log,selection_error_quantile,contribution_sum,top_features
+1569642699738706391,581743235,Private room,78.0,4.8,30,4.4455943,5.14436,0.08888548407090635,0.25,-0.6987653970718384,room_type; distance_km; accommodates; reviews_per_month; bedrooms; bathroom_shared
+44412309,263279068,Entire home/apt,154.83,4.57,7,5.226836,5.14436,0.18450846370006335,0.5,0.08247198909521103,distance_km; room_type; accommodates; bedrooms; review_scores_cleanliness; reviews_per_month
+1570387236912584343,662764354,Entire home/apt,350.83,5.0,13,5.343262,5.14436,-0.5170395800684835,0.9,0.19890347123146057,quote_stay_nights; accommodates; room_type; bedrooms; bathroom_count; longitude

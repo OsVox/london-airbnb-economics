@@ -1,0 +1,210 @@
+ppt/slides/slide1.xml
+COMPANY BANKRUPTCY PREDICTION
+Bankruptcy data from the Taiwan Economic Journal for the years 1999–2009
+Faculty of Economic 
+Science
+Bachelor’s Programme
+Economics & HSE/NES Programme in Economics
+Moscow
+2022
+Performed by:
+Mihaevich Andrei
+Savelieva Alina
+Sklyarov Sergei
+Vakhrukova Anastasiia
+
+ppt/slides/slide2.xml
+WHY IS THIS IMPORTANT?
+Purpose of our research
+ was to find most optimal and effective model to predict the bankruptcy class.
+Corporate bankruptcy risk assessment is important for creditors, investors and other stakeholders. It is important to prevent bankruptcy before the trial. 
+The judicial procedure, especially initiated by creditors, carries risks of seizure of assets, loss of reputation, bringing controlling persons to subsidiary and criminal liability. 
+Therefore, bankruptcy forecasting is an important area of research
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Why is this Important?
+
+ppt/slides/slide3.xml
+WHAT WAS DONE BEFORE US:
+Our colleagues 
+collected data
+, 
+reduced the number of variables by
+ Variance Inflation Factor 
+(VIF)
+. Thus, only 44 features remained of the 95 initial independent variables. 
+They 
+standardized data using Z-score
+, done by subtracting the mean and dividing by the standard deviation for each value of each feature. Then they used the method of stratified cross-validation to solve class imbalance problem. 
+They highlighted 
+the advantages of all models
+. They 
+trained models
+ twice 
+using ROC-AUC and F1 metrics
+. They also looked at 
+brier score
+ for these metrics. To show results they 
+built ROC curve
+ for all the models.
+Faculty of Economic 
+Science
+What was done before us
+Company Bankruptcy 
+Prediction
+
+ppt/slides/slide4.xml
+STRUCTURE:
+The Dataset Description
+Data Processing - VIF, Standardization, SelectKBest, Manual Research
+Stratified Cross Validation
+Last Year’s Results
+Models Overview
+Model Comparison ( VIF vs SelectKBest + Oversampling)
+Blending
+Conclusion
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Structure
+
+ppt/slides/slide5.xml
+THE DATASET DESCRIPTION:
+The data were collected from the Taiwan Economic Journal for the years 1999–2009. Company bankruptcy was defined based on the business regulations of the Taiwan Stock Exchange.
+Target
+ - bankruptcy class: 1 - the company is bankrupt; 0 – otherwise;
+95 
+features, of 
+6819 
+observations.
+Imbalanced target:
+The dataset description
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+
+ppt/slides/slide6.xml
+DATA PROCESSING:
+First setup (from presentation):
+We use Variance Inflation Factor (VIF) to avoid multicollinearity and exclude correlated features:
+                 
+𝑉𝐼𝐹
+= 
+1
+1−
+𝑅
+2
+    
+We exclude variables with VIF more then 5
+Second setup (our version):
+We use SelectKBest to select features (as we have a lot of variables - 95) to compare it with VIF. After tests on logistic regression, we left only 20 features. In addition, the data were standardized same as in VIF approach.
+ 
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Data processing
+
+ppt/slides/slide7.xml
+STRATIFIED CROSS VALIDATION:
+First setup (from presentation):
+We have unbalanced target, therefore we implement StratifiedKfold with Shuffle split as it returns stratified randomized folds. The folds are made by preserving the percentage of samples for each class
+Second setup (our version):
+We add oversampling (SMOTE)  which oversample the examples in the minority class to balance the dataset.
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Sratified Cross Validation
+
+ppt/slides/slide8.xml
+MANUAL PROCESSING (ALTERNATIVE WAY):
+Deleting meaningless columns;
+Deleting (or changing to median value) outliers;
+Correlation 
+analysis
+ (Vif + Manual Correlation preprocessing);
+Z-score scaling.
+Logit precision is much better in comparison with last year’s presentation.
+Problems: if we delete outliers from train dataset, then Z-score scaling for test_sample (with outliers) is bad. (mean is much higher than median)
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Manual Processing (Alternative Way):
+
+ppt/slides/slide9.xml
+LAST YEAR’S RESULTS:
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Last year’s results
+
+ppt/slides/slide10.xml
+THERE’S CLEARLY A DECEPTION HERE.
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Last year’s results
+On the F1 Score chart, the SVM model is clearly pulling ahead by a huge margin, breaking the 0.5 mark. We were wondering what this is related to. That’s why we studied last year's code and found that the SVM model gave a prediction based on the training sample. For this reason, we will not take into account these results. 
+So the goal of our improvement was to overcome the level of 0.94 in AUC and 0.28 in F1 Score.
+
+ppt/slides/slide11.xml
+MODELS – FIRST SETUP RESULTS
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Models – first setup results
+
+ppt/slides/slide12.xml
+FIRST SETUP ROC-AUC CURVE
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+First setup ROC-AUC curve
+
+ppt/slides/slide13.xml
+MODELS – SECOND SETUP RESULTS
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Models – second setup results
+
+ppt/slides/slide14.xml
+SECOND SETUP ROC-AUC CURVE
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Second setup ROC-AUC curve
+
+ppt/slides/slide15.xml
+BLENDING:
+To achieve even better results, we tried to use blending.  We took random forest and logistic regression as the basic algorithms, since they are simple, but at the same time showed some of the best results. Light Gradient Boosting was chosen as a meta algorithm.
+But unfortunately, due to the difficulty of selecting good hyperparameters in blending, we got an AUC score of only 0.86. This is also a good result, but it is not comparable with simpler models.
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Blending
+
+ppt/slides/slide16.xml
+CONCLUSION:
+In the course of our work, we used 2 approaches:
+Improving an existing option by more detailed data processing, outliers, finding better parameters for models;
+Feature selection using SelectKBest and data balancing using oversampling.
+Both approaches were successful and we were able to beat last year's results. The second approach proved to be better due to greater suitability for dealing with imbalanced samples.
+Faculty of Economic 
+Science
+Company Bankruptcy 
+Prediction
+Conclusion

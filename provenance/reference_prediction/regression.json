@@ -1,0 +1,13 @@
+{
+  "distance_logprice_per_km": -0.03920501663819371,
+  "host_cluster_se": 0.0010994410472249551,
+  "ci_low": -0.04135992109075462,
+  "ci_high": -0.0370501121856328,
+  "five_km_price_change_pct": -17.800838375308523,
+  "five_km_change_pct_low": -18.681740898289465,
+  "five_km_change_pct_high": -16.910393232212915,
+  "sample": "training listings only, P controls, no neighbourhood/latitude/longitude",
+  "n": 36331,
+  "hosts": 17344,
+  "design_columns": 119
+}

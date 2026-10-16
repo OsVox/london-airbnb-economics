@@ -1,0 +1,66 @@
+{
+  "seed": 20261016,
+  "plan_sha256": "9ccebb8042460ed794a17eb360cc343454b6336faaece5fa1c46a410a31434df",
+  "choices": {
+    "P_ridge": {
+      "alpha": 10
+    },
+    "P_small_tree": {
+      "max_depth": 5
+    },
+    "P_random_forest": {
+      "n_estimators": 200,
+      "max_depth": 14,
+      "min_samples_leaf": 10
+    },
+    "P_xgboost": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.05,
+      "min_child_weight": 20,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 10
+    },
+    "PD_ridge": {
+      "alpha": 100
+    },
+    "PD_small_tree": {
+      "max_depth": 5
+    },
+    "PD_random_forest": {
+      "n_estimators": 200,
+      "max_depth": 14,
+      "min_samples_leaf": 10
+    },
+    "PD_xgboost": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.05,
+      "min_child_weight": 20,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 10
+    },
+    "PL_ridge": {
+      "alpha": 100
+    },
+    "PL_small_tree": {
+      "max_depth": 5
+    },
+    "PL_random_forest": {
+      "n_estimators": 200,
+      "max_depth": 14,
+      "min_samples_leaf": 10
+    },
+    "PL_xgboost": {
+      "max_depth": 5,
+      "n_estimators": 300,
+      "learning_rate": 0.05,
+      "min_child_weight": 20,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 10
+    }
+  }
+}

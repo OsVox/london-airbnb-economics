@@ -1,0 +1,31 @@
+{
+  "raw_quote_currency_counts": {
+    "GBP": 60028,
+    "None": 2701
+  },
+  "valid_quote_nightly_amounts": 59761,
+  "price_matches_quote_within_rounding": 59761,
+  "raw_quote_parse_errors": 0,
+  "all_missing_columns": [
+    "neighborhood_overview",
+    "host_since",
+    "host_response_time",
+    "host_response_rate",
+    "host_acceptance_rate",
+    "host_thumbnail_url",
+    "host_neighbourhood",
+    "host_total_listings_count",
+    "host_verifications",
+    "neighbourhood",
+    "neighbourhood_group_cleansed",
+    "bathrooms",
+    "calendar_updated",
+    "license",
+    "instant_bookable"
+  ],
+  "price_date_context_missing": 29225,
+  "source_counts": {
+    "NaN": 59643,
+    "previous scrape": 32311
+  }
+}

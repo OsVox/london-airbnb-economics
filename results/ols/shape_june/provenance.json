@@ -1,0 +1,11 @@
+{
+  "provenance/analysis_plan.md": "f885b3c8c569ff262f58bf3e88ca8e6d03d8974bf9de913afe0399cc6f3dda69",
+  "provenance/curvature_plan.md": "40b6ff73a87a00324d170f6cdfba5f695c6916b777ae3134984cf7bda03a7573",
+  "provenance/replication_plan.md": "1832725bd8f344c34a78d456ccecc79b2faf16439460d7198f74a840c868c90d",
+  "data/london_2026-06-19.csv.gz": "f32fbf1bdd3a4fcdb58ffe901b4ac20d8614f77cd36f1e3bbd18523e6e2acabd",
+  "helpers/shape_june.py": "c7b22e3364645bc9094b0d3bd718109b368da91c0a408b9692f47af3cd28ce30",
+  "helpers/ols_core.py": "21e052a72c744698e94838e15db9fa8c0423cc490315421e50fd3c7063fe9788",
+  "helpers/features.py": "0cc70fea9610222493c751eb73c198c72f3128ff9862252667064b95ffa629e4",
+  "data/london_2026-09-17.csv.gz": "8017870734a9bffa1b424937372e5f02f8c4a114e5060534d7423be5fd718b4c",
+  "data/split.csv": "bd474ede43770b629676e9048d25960ee41646a7e018f0b8c3872824d2b9f2e8"
+}

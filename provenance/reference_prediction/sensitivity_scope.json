@@ -1,0 +1,8 @@
+{
+  "all_positive_rows": 59905,
+  "main_rows": 59635,
+  "excluded_price_tails": 270,
+  "holdout_all_positive_listings": 11956,
+  "holdout_extra_tail_listings": 52,
+  "status": "same holdout hosts and frozen fits; tail-only hosts with no main-cohort listing have no split assignment and are outside this sensitivity"
+}

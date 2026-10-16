@@ -1,0 +1,1 @@
+PASS: all four post-result shape checks, source/plan/code hashes, independently calculated contrasts, confidence intervals and corrected tests, exact subgroup counts. All joint hypotheses pass the 21-test correction.

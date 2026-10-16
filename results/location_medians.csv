@@ -1,0 +1,11 @@
+room_type,distance_band,n,median_price
+Entire home/apt,0–3,4659,329.0
+Entire home/apt,3–6,8938,240.0
+Entire home/apt,6–10,5511,199.0
+Entire home/apt,10–15,3556,188.0
+Entire home/apt,15+,1987,171.0
+Private room,0–3,1303,109.0
+Private room,3–6,2878,90.0
+Private room,6–10,2962,78.315
+Private room,10–15,2477,70.0
+Private room,15+,1879,63.0

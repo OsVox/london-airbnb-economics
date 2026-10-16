@@ -1,0 +1,24 @@
+{
+  "OLS": {},
+  "Ridge": {
+    "alpha": 100
+  },
+  "Small tree": {
+    "max_depth": 5,
+    "min_samples_leaf": 50
+  },
+  "Random forest": {
+    "n_estimators": 200,
+    "max_depth": 14,
+    "min_samples_leaf": 10
+  },
+  "XGBoost": {
+    "max_depth": 5,
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "min_child_weight": 20,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 10
+  }
+}

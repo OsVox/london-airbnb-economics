@@ -1,0 +1,8 @@
+R curved_main june [('rating_slope_at_100_reviews', 0.5092, 2.567136658166822e-124), ('rating_slope_100_minus_10', 0.222, 4.689849035277223e-46)]
+R curved_high_ratings june [('rating_slope_at_100_reviews', 0.6881, 4.2433146186998545e-116), ('rating_slope_100_minus_10', 0.3198, 1.6639283629496275e-36)]
+R curved_main_new_hosts june [('rating_slope_at_100_reviews', 0.3902, 4.4474190835237225e-08), ('rating_slope_100_minus_10', 0.1654, 0.0015253394358352623)]
+R curved_high_ratings_new_hosts june [('rating_slope_at_100_reviews', 0.7654, 6.138548316979421e-12), ('rating_slope_100_minus_10', 0.3806, 6.0418738876986596e-05)]
+Empty DataFrame
+Columns: [hypothesis, spec, split, n, hosts, clusters, composite_p, all_directions, all_cis_expected, p_adjusted_21, supported]
+Index: []
+

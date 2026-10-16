@@ -1,0 +1,10 @@
+{
+  "review-credibility-regression/analysis_plan.md": "f885b3c8c569ff262f58bf3e88ca8e6d03d8974bf9de913afe0399cc6f3dda69",
+  "review-credibility-regression/replication_plan.md": "1832725bd8f344c34a78d456ccecc79b2faf16439460d7198f74a840c868c90d",
+  "data/london_2026-06-19.csv.gz": "f32fbf1bdd3a4fcdb58ffe901b4ac20d8614f77cd36f1e3bbd18523e6e2acabd",
+  "review-credibility-regression/scripts/replicate.py": "1262c4312b2816a1a1273838f1b2bb9ee41b5d56207c9e44ae14b88b3bcf4844",
+  "review-credibility-regression/scripts/ols_core.py": "21e052a72c744698e94838e15db9fa8c0423cc490315421e50fd3c7063fe9788",
+  "hypotheses/scripts/features.py": "0cc70fea9610222493c751eb73c198c72f3128ff9862252667064b95ffa629e4",
+  "data/london_2026-09-17.csv.gz": "8017870734a9bffa1b424937372e5f02f8c4a114e5060534d7423be5fd718b4c",
+  "results/split.csv": "bd474ede43770b629676e9048d25960ee41646a7e018f0b8c3872824d2b9f2e8"
+}

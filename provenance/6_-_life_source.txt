@@ -1,0 +1,414 @@
+ppt/slides/slide1.xml
+Abdurakhmon Karimberganov
+Anton Ustimovich
+Elizaveta Deytina
+Kristina Eroshenko
+Oleg Izyumov
+Predicting life expectancy
+‹#›
+
+ppt/slides/slide2.xml
+Plan
+Data description and processing
+About the data
+Correlations
+Dropping, filling gaps
+Logarithm	
+Models
+OLS 
+Gradient Boosting
+Decision Tree
+Random Forest
+Results
+Further 
+research
+‹#›
+
+ppt/slides/slide3.xml
+Base
+‹#›
+
+ppt/slides/slide4.xml
+About the data
+P
+eriod: 2000 - 2015 
+Countries: 193 
+ 
+We
+ collected additional data from WHO and United Nations website
+Missing data was handled in R software 
+(1)
+Variables
+The final final merged dataset: 
+22 Columns x 2938 rows 
+20 predicting variables. 
+Target variable
+Life expectancy
+Median = 73
+Average = 71,9
+Mode = 73
+by using Missmap command. We checked it, found some mistakes and decided to drop, fill and fix data errors.
+‹#›
+
+ppt/slides/slide5.xml
+Health
+ factors
+Alcohol
+Alcohol, recorded per capita (15+) consumption 
+(1)
+Measles 
+(2)
+:
+Median = 17
+Average = 2419
+Mode = 0
+BMI
+Average Body Mass Index of entire population
+T
+hinness 1-19 years
+Prevalence of thinness among children and adolescents for Age 10 to 19 (% )
+Thinness 5-9 years
+Prevalence of thinness among children and adolescents for Age 5 to 9 (% )
+‹#›
+in litres of pure alcohol
+number of reported cases per 1000 population
+
+ppt/slides/slide6.xml
+​Immunization related factors
+Hepatitis B
+Hepatitis B (HepB) immunization coverage among 1-year-olds (%)
+Median = 92
+Average = 81
+Mode = 99
+Polio
+Polio (Pol3) immunization coverage among 1-year-olds (%)
+Median = 93
+Average = 83
+Mode = 99
+Diphtheria
+Diphtheria tetanus toxoid and pertussis (DTP3) immunization coverage among 1-year-olds (%)
+Median = 93
+Average = 82
+Mode = 99
+‹#›
+
+ppt/slides/slide7.xml
+Mortality factors
+Adult Mortality (
+both sexes) 
+Probability of dying in 15 - 60 years 
+(1)
+Median = 144
+Average = 164
+Mode = 12
+I
+nfant deaths
+Number of Infant Deaths 
+(1)
+Median = 3
+Average = 30
+Mode = 0
+U
+nder-five deaths
+Number of under-five deaths 
+(1)
+Median = 4
+Average = 42
+Mode = 0
+HIV/AIDS
+Deaths per 1 000 live births HIV/AIDS (0-4 years)
+‹#›
+per 1000 population
+
+ppt/slides/slide8.xml
+Economical factors
+Developed or Developing status
+83% Developing
+17% Developed
+P
+ercentage expenditure
+Domestic e
+xpenditure on health (%)
+Median = 65
+Average = 738
+Total expenditure
+General government expenditure on health (%)
+GDP 
+(in USD)
+Median = 1767
+Average = 7483
+Income composition of resources
+Human Development Index in terms of income composition of resources 
+(1)
+‹#›
+index ranging from 0 to 1
+
+ppt/slides/slide9.xml
+Social factors
+Population
+Population of the country
+Median = 1370540
+Average = 12665935
+Schooling
+Number of years of Schooling (years)
+‹#›
+
+ppt/slides/slide10.xml
+HIV is the most important factor for life expectancy 
+which indicates how dangerous this disease is.
+GDP has a strong positive connection with our target variable. It is not a surprise that the 
+more developed a country is the higher it’s GDP 
+and generally the better is the healthcare system, which ensures that people live longer.
+Nevertheless, 
+healthcare expenditures by themselves do not provide higher life expectancy.
+‹#›
+Importance
+
+ppt/slides/slide11.xml
+Observation period: 2000 - 2015
+Number of 
+countries: 183
+Linear regression
+Linear regression
+With regularization
+Decision Tree
+Random Forest
+‹#›
+Base summary
+Removed variables: 
+Hepatitis.B (too many missing values);
+thinness 10-19 (highly correlates with Thinness 5-9 years);
+Infant deaths (almost identical with Infant deaths);
+HDI index (target leak).
+{0EF8FD3B-A2CF-4892-89FA-BEF3654362A1}
+Linear regression
+Linear regression
+With regularization
+Decision Tree
+Random Forest
+Gradient Boosting
+R2_score
+0.768
+0.774
+0.857
+0.908
+0.908
+Mean absolute error
+3.286
+3.282
+2.600
+2.044
+2.084
+
+ppt/slides/slide12.xml
+Upgrade
+‹#›
+
+ppt/slides/slide13.xml
+Data fixing
+who the lack(? - ) is your 
+target leaking
+ feature?
+Dropped:
+A. 
+Target leak:
+Adult Mortality
+;
+Income composition of resources.
+B. 
+Multicollinearity:
+Thinness 5-9;
+Polio.
+C. 
+Useless:
+Percentage expenditure
+;
+Under-five deaths
+;
+S
+chooling.
+D. Lack of data:
+2015 year;
+16 small countries
+.
+.
+Filled with:
+Mean:
+Total expenditure, Alcohol, Hepatitis B, thinness 1-19 years, Schooling
+Mode: Hepatitis B, Diphtheria
+Fixed:
+Status for countries (Develop-ed/ing),
+GDP
+ & 
+Population for countries (from 
+WB
+)
+Wrong input or scale changes:
+Diphtheria, Hepatitis B
+, 
+Population
+, 
+Measles (x10 diffs)
+infant deaths
+Added logarithmized GDP
+‹#›
+
+ppt/slides/slide14.xml
+Regression
+Models: Linear & Gradient Boosting
+Standard 
+Linear model
+Regression with Regularization
+Pipeline:
+'scaler'
+, 
+MinMaxScaler()
+'model'
+, LinearRegression
+Cross-validation results:
+Pipeline:
+'scaler'
+, StandardScaler()
+'Model'
+, ElasticNet
+Cross-validation results:
+Gradient Boosting
+Pipeline:
+'scaler'
+, 
+StandardScaler()
+'model'
+, 
+XGBRegressor
+Cross-validation results:
+‹#›
+
+ppt/slides/slide15.xml
+Models: Trees
+Decision Tree
+Pipeline:
+'scaler'
+, CustomScaler(num_cols)
+'model'
+, 
+DecisionTreeRegressor
+Cross-validation results:
+Random Forest
+‹#›
+Pipeline:
+'scaler'
+, CustomScaler(num_cols)
+'model'
+, 
+RandomForestRegressor
+Cross-validation results:
+
+ppt/slides/slide16.xml
+Results 
+achieved
+{0EF8FD3B-A2CF-4892-89FA-BEF3654362A1}
+Linear regression
+Linear regression
+With regularization
+Decision Tree
+Random Forest
+Gradient Boosting
+R2_score
+0.960
+0
+.
+768
+0.896
+0
+.
+774
+0.928
+0
+.
+857
+0.968
+0
+.
+908
+0.959
+0
+.
+908
+Mean absolute error
+1.208
+3
+.
+286
+2.294
+3
+.
+282
+2.175
+2
+.
+600
+1.082
+2
+.
+044
+1.177
+2
+.
+084
+Mean squared error
+3.565
+9.371
+8.744
+2.650
+3.4
+‹#›
+Observation period: 2000 - 2014
+Number of countries: 178
+Features removed: 7
+
+ppt/slides/slide17.xml
+Further research
+Narrower models with respect to each factor
+Combine countries by geography/political regime/level of economy and consider how the significance of factors in the model will change
+Collect data on patients within one country
+Exclude countries where there were wars, catastrophes
+‹#›
+
+ppt/slides/slide18.xml
+Thank you!
+Oleg Izyumov
+Kristina Eroshenko
+Abdurakhmon Karimberganov
+Anton Ustimovich
+Our Team:
+Previous results were 
+replicated
+ and 
+enhanced
+.
+Errors were corrected.
+We significantly upgraded the dataset.
+Which positively affected to all the models.
+We can highlight 3 models:
+Elizaveta Deytina
+‹#›
+{0EF8FD3B-A2CF-4892-89FA-BEF3654362A1}
+Linear regression
+Random Forest
+Gradient Boosting
+R2_score
+0.960
+0.968
+0.959
+Mean absolute error
+1.208
+1.082
+1.624
+Mean squared error
+3.565
+2.650
+4.733
+Main results:
+
+ppt/slides/slide19.xml
+‹#›

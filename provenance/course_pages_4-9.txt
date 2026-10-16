@@ -1,0 +1,87 @@
+Group assignment and
+presentation tips
+
+Structure
+
+Each presentation has to answer the following fundamental questions:
+• what is this about
+
+• why is this important
+• what are the results
+
+• what is the takeaway
+Typically people remember the first and the last slide, so these questions
+should be answered there. The body of the presentation carries you from
+the first 2 questions to the last two.
+Imagine your audience is very tired: they will only really pay attention to
+the first and the last slide.
+
+2
+
+Readability matters
+
+Never put too much on one slide; use bullets.
+• Make a roadmap slide
+
+• Fonts should be large and legible
+• Use one style throughout
+
+• Colors should be contrasting (never use pale ones)
+• Never put large chunks of text
+
+• Make sure figures have good resolution
+
+• Do not get carried away with fancy slides
+
+3
+
+Poor practices
+
+• Reading the slide word by word
+
+• Saying “here is a bunch of graphs”. . . and showing graphs
+• Showing a correlation matrix with 120 features
+
+What you say and what you write on the slide should be diﬀerent things.
+Compress the written message, for example:
+What you say: We use regularization with out-of-sample chosen
+parameters to get a better fit than vanilla OLS, but the random forest
+with default parameters performs even better, presumably due to
+non-linearities.
+What you show: OLS loss: 2.36, Elastic Net loss: 2.18, RF loss: 2.11
+
+4
+
+Slide-by-slide
+
+• Presentation name and team members
+• Intro: why is this important
+
+• Intro: summarize what was done before you
+• Roadmap
+
+• (1-2 slides) Data: columns, missing values
+• (2-3 slides) Visual: pairplots, logarithms
+• (1-2 slides) Few baseline models
+
+• (2-3 slides) More complex models
+
+• (1-2 slides) Experiment with design (stacking? cv...)
+• Summary and comparison of the results
+• Conclusion
+
+5
+
+Final tips
+
+• Watch the other groups’ presentations, identify strengths and weaknesses
+• Practice your presentation at least 2 times
+• Leave at least a day to polish
+• Split the workload
+
+• Do teamwork, but choose 1 leader
+Show me your presentation in advance, I will give you hints.
+
+6
+
+

@@ -1,0 +1,12 @@
+{
+  "data_hashes": true,
+  "host_disjoint": true,
+  "forbidden_inputs_excluded": true,
+  "all_prediction_metrics_recomputed": true,
+  "all_ols_contrasts_full_covariance": true,
+  "all_40_inference_fits_recomputed": true,
+  "known_failed_check_retained": true,
+  "june_cohorts_verified": true,
+  "shap_additivity": true,
+  "cv_host_separation": true
+}
