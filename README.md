@@ -10,7 +10,6 @@
 - `speaker_notes.txt` — русские заметки; тот же текст встроен в PPTX.
 - `requirements_mapping.csv` — где выполнено каждое требование.
 - [План проверки проекта четырьмя участниками](docs/team-review-four-parts.docx) — задачи и ожидаемый результат для каждого блока.
-- [Google-документ с планом проверки](https://docs.google.com/document/d/1FyPKs2fyqqzkiga39NYJyNCOciYCyv1sDwv9Glrf4gw) — доступ к Google Docs настраивается отдельно от GitHub.
 - `results/visual_review.json` — результат просмотра всех 54 страниц PDF.
 - `results/verification.json`, `results/completion_checks.json` — вычислительные проверки и проверка поставки.
 
