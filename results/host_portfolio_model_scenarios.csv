@@ -1,0 +1,1449 @@
+scenario,lead_days,gap_gbp
+Both mechanisms,0.0,-5.0
+Both mechanisms,0.25,-4.834025852777515
+Both mechanisms,0.5,-4.669429076432351
+Both mechanisms,0.75,-4.506198240566647
+Both mechanisms,1.0,-4.344322009640109
+Both mechanisms,1.25,-4.183789142182761
+Both mechanisms,1.5,-4.024588490014281
+Both mechanisms,1.75,-3.8667089974698428
+Both mechanisms,2.0,-3.7101397006323538
+Both mechanisms,2.25,-3.554869726571056
+Both mechanisms,2.5,-3.4008882925864725
+Both mechanisms,2.75,-3.2481847054615542
+Both mechanisms,3.0,-3.0967483607191895
+Both mechanisms,3.25,-2.9465687418856845
+Both mechanisms,3.5,-2.797635419760468
+Both mechanisms,3.75,-2.6499380516919047
+Both mechanisms,4.0,-2.503466380858953
+Both mechanisms,4.25,-2.3582102355589285
+Both mechanisms,4.5,-2.214159528501156
+Both mechanisms,4.75,-2.0713042561064157
+Both mechanisms,5.0,-1.9296344978122875
+Both mechanisms,5.25,-1.7891404153841393
+Both mechanisms,5.5,-1.6498122522320529
+Both mechanisms,5.75,-1.5116403327331227
+Both mechanisms,6.0,-1.3746150615596378
+Both mechanisms,6.25,-1.238726923012706
+Both mechanisms,6.5,-1.1039664803614073
+Both mechanisms,6.75,-0.9703243751875448
+Both mechanisms,7.0,-0.8377913267356405
+Both mechanisms,7.25,-0.7063581312685017
+Both mechanisms,7.5,-0.5760156614281016
+Both mechanisms,7.75,-0.44675486560161914
+Both mechanisms,8.0,-0.31856676729297817
+Both mechanisms,8.25,-0.1914424644993744
+Both mechanisms,8.5,-0.06537312909313187
+Both mechanisms,8.630462173553427,0.0
+Both mechanisms,8.75,0.059649993791353495
+Both mechanisms,9.0,0.18363558636563937
+Both mechanisms,9.25,0.30659225879017526
+Both mechanisms,9.5,0.42852854977213894
+Both mechanisms,9.75,0.5494529271585549
+Both mechanisms,10.0,0.6693737885242115
+Both mechanisms,10.25,0.7882994617549031
+Both mechanisms,10.5,0.9062382056257263
+Both mechanisms,10.75,1.0231982103746304
+Both mechanisms,11.0,1.139187598271178
+Both mechanisms,11.25,1.2542144241805602
+Both mechanisms,11.5,1.3682866761230343
+Both mechanisms,11.75,1.4814122758286317
+Both mechanisms,12.0,1.5935990792872161
+Both mechanisms,12.25,1.7048548772941103
+Both mechanisms,12.5,1.8151873959911313
+Both mechanisms,12.75,1.9246042974030502
+Both mechanisms,13.0,2.033113179969817
+Both mechanisms,13.25,2.1407215790740537
+Both mechanisms,13.5,2.2474369675645534
+Both mechanisms,13.75,2.353266756275005
+Both mechanisms,14.0,2.4582182945388666
+Both mechanisms,14.25,2.562298870699607
+Both mechanisms,14.5,2.6655157126167666
+Both mechanisms,14.75,2.7678759881681714
+Both mechanisms,15.0,2.8693868057473253
+Both mechanisms,15.25,2.970055214757423
+Both mechanisms,15.5,3.069888206100643
+Both mechanisms,15.75,3.1688927126637054
+Both mechanisms,16.0,3.267075609799363
+Both mechanisms,16.25,3.3644437158038443
+Both mechanisms,16.5,3.4610037923902723
+Both mechanisms,16.75,3.5567625451583496
+Both mechanisms,17.0,3.6517266240599326
+Both mechanisms,17.25,3.7459026238608857
+Both mechanisms,17.5,3.8392970845990533
+Both mechanisms,17.75,3.9319164920384253
+Both mechanisms,18.0,4.023767278119465
+Both mechanisms,18.25,4.114855821405953
+Both mechanisms,18.5,4.205188447527746
+Both mechanisms,18.75,4.294771429620198
+Both mechanisms,19.0,4.383610988759727
+Both mechanisms,19.25,4.471713294395869
+Both mechanisms,19.5,4.559084464779687
+Both mechanisms,19.75,4.645730567388696
+Both mechanisms,20.0,4.731657619348169
+Both mechanisms,20.25,4.816871587849008
+Both mechanisms,20.5,4.901378390562201
+Both mechanisms,20.75,4.985183896049648
+Both mechanisms,21.0,5.068293924171812
+Both mechanisms,21.25,5.150714246491816
+Both mechanisms,21.5,5.232450586676265
+Both mechanisms,21.75,5.313508620892762
+Both mechanisms,22.0,5.393893978204005
+Both mechanisms,22.25,5.473612240958829
+Both mechanisms,22.5,5.552668945179704
+Both mechanisms,22.75,5.631069580947326
+Both mechanisms,23.0,5.708819592781765
+Both mechanisms,23.25,5.785924380020674
+Both mechanisms,23.5,5.86238929719417
+Both mechanisms,23.75,5.938219654396619
+Both mechanisms,24.0,6.013420717655578
+Both mechanisms,24.25,6.087997709297284
+Both mechanisms,24.5,6.1619558083095
+Both mechanisms,24.75,6.235300150701022
+Both mechanisms,25.0,6.308035829858426
+Both mechanisms,25.25,6.38016789689982
+Both mechanisms,25.5,6.451701361025471
+Both mechanisms,25.75,6.5226411898658085
+Both mechanisms,26.0,6.592992309826371
+Both mechanisms,26.25,6.66275960642983
+Both mechanisms,26.5,6.731947924655401
+Both mechanisms,26.75,6.800562069275244
+Both mechanisms,27.0,6.868606805188023
+Both mechanisms,27.25,6.936086857749999
+Both mechanisms,27.5,7.003006913103064
+Both mechanisms,27.75,7.069371618500142
+Both mechanisms,28.0,7.135185582628026
+Both mechanisms,28.25,7.200453375927353
+Both mechanisms,28.5,7.265179530909975
+Both mechanisms,28.75,7.329368542473787
+Both mechanisms,29.0,7.393024868214837
+Both mechanisms,29.25,7.456152928736856
+Both mechanisms,29.5,7.518757107958336
+Both mechanisms,29.75,7.580841753416891
+Both mechanisms,30.0,7.642411176571159
+Both mechanisms,30.25,7.703469653100257
+Both mechanisms,30.5,7.764021423200759
+Both mechanisms,30.75,7.824070691880976
+Both mechanisms,31.0,7.883621629253156
+Both mechanisms,31.25,7.942678370823032
+Both mechanisms,31.5,8.001245017776881
+Both mechanisms,31.75,8.059325637266582
+Both mechanisms,32.0,8.116924262691754
+Both mechanisms,32.25,8.174044893980124
+Both mechanisms,32.5,8.230691497865166
+Both mechanisms,32.75,8.286868008161548
+Both mechanisms,33.0,8.34257832603842
+Both mechanisms,33.25,8.397826320290221
+Both mechanisms,33.5,8.452615827605456
+Both mechanisms,33.75,8.506950652833012
+Both mechanisms,34.0,8.560834569246481
+Both mechanisms,34.25,8.61427131880616
+Both mechanisms,34.5,8.667264612418933
+Both mechanisms,34.75,8.719818130195918
+Both mechanisms,35.0,8.771935521708059
+Both mechanisms,35.25,8.823620406239613
+Both mechanisms,35.5,8.874876373039442
+Both mechanisms,35.75,8.9257069815703
+Both mechanisms,36.0,8.976115761755949
+Both mechanisms,36.25,9.02610621422643
+Both mechanisms,36.5,9.075681810560994
+Both mechanisms,36.75,9.124845993529334
+Both mechanisms,37.0,9.17360217733058
+Both mechanisms,37.25,9.221953747830412
+Both mechanisms,37.5,9.269904062796186
+Both mechanisms,37.75,9.317456452130216
+Both mechanisms,38.0,9.364614218100826
+Both mechanisms,38.25,9.411380635571845
+Both mechanisms,38.5,9.457758952229952
+Both mechanisms,38.75,9.503752388810199
+Both mechanisms,39.0,9.54936413931975
+Both mechanisms,39.25,9.594597371259582
+Both mechanisms,39.5,9.639455225844557
+Both mechanisms,39.75,9.683940818221473
+Both mechanisms,40.0,9.728057237685462
+Both mechanisms,40.25,9.771807547894511
+Both mechanisms,40.5,9.815194787082163
+Both mechanisms,40.75,9.858221968268609
+Both mechanisms,41.0,9.900892079469799
+Both mechanisms,41.25,9.943208083905063
+Both mechanisms,41.5,9.985172920202842
+Both mechanisms,41.75,10.026789502604714
+Both mechanisms,42.0,10.068060721167868
+Both mechanisms,42.25,10.108989441965733
+Both mechanisms,42.5,10.149578507287032
+Both mechanisms,42.75,10.189830735833155
+Both mechanisms,43.0,10.229748922913956
+Both mechanisms,43.25,10.269335840641773
+Both mechanisms,43.5,10.308594238124044
+Both mechanisms,43.75,10.347526841654144
+Both mechanisms,44.0,10.386136354900742
+Both mechanisms,44.25,10.424425459095545
+Both mechanisms,44.5,10.462396813219527
+Both mechanisms,44.75,10.500053054187518
+Both mechanisms,45.0,10.537396797031406
+Both mechanisms,45.25,10.574430635081654
+Both mechanisms,45.5,10.61115714014747
+Both mechanisms,45.75,10.64757886269534
+Both mechanisms,46.0,10.68369833202621
+Both mechanisms,46.25,10.71951805645105
+Both mechanisms,46.5,10.75504052346514
+Both mechanisms,46.75,10.790268199920732
+Both mechanisms,47.0,10.825203532198401
+Both mechanisms,47.25,10.859848946376943
+Both mechanisms,47.5,10.894206848401808
+Both mechanisms,47.75,10.92827962425224
+Both mechanisms,48.0,10.96206964010689
+Both mechanisms,48.25,10.995579242508242
+Both mechanisms,48.5,11.02881075852548
+Both mechanisms,48.75,11.061766495916117
+Both mechanisms,49.0,11.094448743286279
+Both mechanisms,49.25,11.126859770249624
+Both mechanisms,49.5,11.159001827584916
+Both mechanisms,49.75,11.1908771473924
+Both mechanisms,50.0,11.222487943248765
+Both mechanisms,50.25,11.253836410360861
+Both mechanisms,50.5,11.28492472571817
+Both mechanisms,50.75,11.315755048243986
+Both mechanisms,51.0,11.34632951894531
+Both mechanisms,51.25,11.376650261061556
+Both mechanisms,51.5,11.40671938021201
+Both mechanisms,51.75,11.436538964542024
+Both mechanisms,52.0,11.46611108486806
+Both mechanisms,52.25,11.49543779482147
+Both mechanisms,52.5,11.524521130991104
+Both mechanisms,52.75,11.553363113064776
+Both mechanisms,53.0,11.581965743969505
+Both mechanisms,53.25,11.610331010010597
+Both mechanisms,53.5,11.638460881009593
+Both mechanisms,53.75,11.666357310441072
+Both mechanisms,54.0,11.69402223556827
+Both mechanisms,54.25,11.721457577577667
+Both mechanisms,54.5,11.748665241712388
+Both mechanisms,54.75,11.77564711740446
+Both mechanisms,55.0,11.802405078406125
+Both mechanisms,55.25,11.828940982919846
+Both mechanisms,55.5,11.855256673727439
+Both mechanisms,55.75,11.881353978318032
+Both mechanisms,56.0,11.9072347090149
+Both mechanisms,56.25,11.932900663101435
+Both mechanisms,56.5,11.95835362294585
+Both mechanisms,56.75,11.98359535612505
+Both mechanisms,57.0,12.008627615547297
+Both mechanisms,57.25,12.033452139574024
+Both mechanisms,57.5,12.058070652140458
+Both mechanisms,57.75,12.082484862875447
+Both mechanisms,58.0,12.106696467220104
+Both mechanisms,58.25,12.130707146545546
+Both mechanisms,58.5,12.154518568269737
+Both mechanisms,58.75,12.178132385973171
+Both mechanisms,59.0,12.201550239513807
+Both mechanisms,59.25,12.224773755140887
+Both mechanisms,59.5,12.247804545607892
+Both mechanisms,59.75,12.270644210284502
+Both mechanisms,60.0,12.293294335267746
+Both mechanisms,60.25,12.31575649349206
+Both mechanisms,60.5,12.338032244838558
+Both mechanisms,60.75,12.360123136243402
+Both mechanisms,61.0,12.382030701805121
+Both mechanisms,61.25,12.403756462891238
+Both mechanisms,61.5,12.425301928243911
+Both mechanisms,61.75,12.44666859408467
+Both mechanisms,62.0,12.467857944218323
+Both mechanisms,62.25,12.48887145013606
+Both mechanisms,62.5,12.509710571117537
+Both mechanisms,62.75,12.530376754332337
+Both mechanisms,63.0,12.550871434940362
+Both mechanisms,63.25,12.571196036191566
+Both mechanisms,63.5,12.591351969524752
+Both mechanisms,63.75,12.61134063466561
+Both mechanisms,64.0,12.631163419723919
+Both mechanisms,64.25,12.65082170128997
+Both mechanisms,64.5,12.670316844530078
+Both mechanisms,64.75,12.689650203281445
+Both mechanisms,65.0,12.708823120146235
+Both mechanisms,65.25,12.727836926584729
+Both mechanisms,65.5,12.746692943007758
+Both mechanisms,65.75,12.765392478868478
+Both mechanisms,66.0,12.78393683275334
+Both mechanisms,66.25,12.802327292472057
+Both mechanisms,66.5,12.820565135147376
+Both mechanisms,66.75,12.83865162730342
+Both mechanisms,67.0,12.856588024953851
+Both mechanisms,67.25,12.874375573689122
+Both mechanisms,67.5,12.89201550876271
+Both mechanisms,67.75,12.909509055177296
+Both mechanisms,68.0,12.926857427769448
+Both mechanisms,68.25,12.944061831294277
+Both mechanisms,68.5,12.96112346050893
+Both mechanisms,68.75,12.978043500255637
+Both mechanisms,69.0,12.994823125543917
+Both mechanisms,69.25,13.011463501632335
+Both mechanisms,69.5,13.027965784109199
+Both mechanisms,69.75,13.044331118972991
+Both mechanisms,70.0,13.060560642711891
+Both mechanisms,70.25,13.076655482382677
+Both mechanisms,70.5,13.092616755688994
+Both mechanisms,70.75,13.108445571059065
+Both mechanisms,71.0,13.124143027722482
+Both mechanisms,71.25,13.13971021578675
+Both mechanisms,71.5,13.155148216312796
+Both mechanisms,71.75,13.170458101390267
+Both mechanisms,72.0,13.185640934211733
+Both mechanisms,72.25,13.200697769146728
+Both mechanisms,72.5,13.215629651814794
+Both mechanisms,72.75,13.230437619158238
+Both mechanisms,73.0,13.245122699514127
+Both mechanisms,73.25,13.25968591268554
+Both mechanisms,73.5,13.274128270012596
+Both mechanisms,73.75,13.288450774442595
+Both mechanisms,74.0,13.302654420599652
+Both mechanisms,74.25,13.316740194853793
+Both mechanisms,74.5,13.33070907538945
+Both mechanisms,74.75,13.344562032273359
+Both mechanisms,75.0,13.358300027522034
+Both mechanisms,75.25,13.37192401516839
+Both mechanisms,75.5,13.385434941328185
+Both mechanisms,75.75,13.398833744265573
+Both mechanisms,76.0,13.412121354458435
+Both mechanisms,76.25,13.425298694662757
+Both mechanisms,76.5,13.438366679976923
+Both mechanisms,76.75,13.451326217905205
+Both mechanisms,77.0,13.464178208420634
+Both mechanisms,77.25,13.476923544027784
+Both mechanisms,77.5,13.48956310982453
+Both mechanisms,77.75,13.502097783563556
+Both mechanisms,78.0,13.514528435713316
+Both mechanisms,78.25,13.526855929518604
+Both mechanisms,78.5,13.539081121060292
+Both mechanisms,78.75,13.551204859314964
+Both mechanisms,79.0,13.563227986213747
+Both mechanisms,79.25,13.575151336700799
+Both mechanisms,79.5,13.58697573879141
+Both mechanisms,79.75,13.59870201362935
+Both mechanisms,80.0,13.610330975543974
+Both mechanisms,80.25,13.62186343210675
+Both mechanisms,80.5,13.633300184187362
+Both mechanisms,80.75,13.644642026009308
+Both mechanisms,81.0,13.655889745205002
+Both mechanisms,81.25,13.667044122870635
+Both mechanisms,81.5,13.67810593362023
+Both mechanisms,81.75,13.689075945639502
+Both mechanisms,82.0,13.699954920739316
+Both mechanisms,82.25,13.710743614408358
+Both mechanisms,82.5,13.721442775865853
+Both mechanisms,82.75,13.73205314811338
+Both mechanisms,83.0,13.742575467986654
+Both mechanisms,83.25,13.753010466206547
+Both mechanisms,83.5,13.763358867429872
+Both mechanisms,83.75,13.773621390299809
+Both mechanisms,84.0,13.783798747495638
+Both mechanisms,84.25,13.793891645782423
+Both mechanisms,84.5,13.80390078605987
+Both mechanisms,84.75,13.813826863411236
+Both mechanisms,85.0,13.823670567151396
+Both mechanisms,85.25,13.833432580874899
+Both mechanisms,85.5,13.843113582503236
+Both mechanisms,85.75,13.852714244332105
+Both mechanisms,86.0,13.862235233077968
+Both mechanisms,86.25,13.871677209924457
+Both mechanisms,86.5,13.881040830568168
+Both mechanisms,86.75,13.890326745264332
+Both mechanisms,87.0,13.899535598871864
+Both mechanisms,87.25,13.908668030898156
+Both mechanisms,87.5,13.917724675543582
+Both mechanisms,87.75,13.926706161745415
+Both mechanisms,88.0,13.935613113221564
+Both mechanisms,88.25,13.944446148513975
+Both mechanisms,88.5,13.953205881031352
+Both mechanisms,88.75,13.961892919092008
+Both mechanisms,89.0,13.970507865965999
+Both mechanisms,89.25,13.97905131991692
+Both mechanisms,89.5,13.987523874243664
+Both mechanisms,89.75,13.995926117321432
+Both mechanisms,90.0,14.004258632642717
+Scale economy only,0.0,-22.5
+Scale economy only,0.25,-22.5
+Scale economy only,0.5,-22.5
+Scale economy only,0.75,-22.499999999999993
+Scale economy only,1.0,-22.499999999999993
+Scale economy only,1.25,-22.5
+Scale economy only,1.5,-22.5
+Scale economy only,1.75,-22.5
+Scale economy only,2.0,-22.5
+Scale economy only,2.25,-22.5
+Scale economy only,2.5,-22.500000000000007
+Scale economy only,2.75,-22.5
+Scale economy only,3.0,-22.5
+Scale economy only,3.25,-22.5
+Scale economy only,3.5,-22.499999999999993
+Scale economy only,3.75,-22.5
+Scale economy only,4.0,-22.5
+Scale economy only,4.25,-22.5
+Scale economy only,4.5,-22.5
+Scale economy only,4.75,-22.5
+Scale economy only,5.0,-22.500000000000007
+Scale economy only,5.25,-22.499999999999993
+Scale economy only,5.5,-22.5
+Scale economy only,5.75,-22.5
+Scale economy only,6.0,-22.5
+Scale economy only,6.25,-22.500000000000007
+Scale economy only,6.5,-22.5
+Scale economy only,6.75,-22.5
+Scale economy only,7.0,-22.5
+Scale economy only,7.25,-22.5
+Scale economy only,7.5,-22.5
+Scale economy only,7.75,-22.5
+Scale economy only,8.0,-22.5
+Scale economy only,8.25,-22.5
+Scale economy only,8.5,-22.5
+Scale economy only,8.630462173553427,-22.5
+Scale economy only,8.75,-22.5
+Scale economy only,9.0,-22.5
+Scale economy only,9.25,-22.5
+Scale economy only,9.5,-22.5
+Scale economy only,9.75,-22.5
+Scale economy only,10.0,-22.5
+Scale economy only,10.25,-22.5
+Scale economy only,10.5,-22.5
+Scale economy only,10.75,-22.5
+Scale economy only,11.0,-22.5
+Scale economy only,11.25,-22.5
+Scale economy only,11.5,-22.5
+Scale economy only,11.75,-22.5
+Scale economy only,12.0,-22.5
+Scale economy only,12.25,-22.5
+Scale economy only,12.5,-22.5
+Scale economy only,12.75,-22.5
+Scale economy only,13.0,-22.499999999999986
+Scale economy only,13.25,-22.5
+Scale economy only,13.5,-22.499999999999986
+Scale economy only,13.75,-22.5
+Scale economy only,14.0,-22.500000000000014
+Scale economy only,14.25,-22.5
+Scale economy only,14.5,-22.500000000000014
+Scale economy only,14.75,-22.499999999999986
+Scale economy only,15.0,-22.5
+Scale economy only,15.25,-22.5
+Scale economy only,15.5,-22.5
+Scale economy only,15.75,-22.5
+Scale economy only,16.0,-22.5
+Scale economy only,16.25,-22.499999999999986
+Scale economy only,16.5,-22.5
+Scale economy only,16.75,-22.499999999999986
+Scale economy only,17.0,-22.5
+Scale economy only,17.25,-22.5
+Scale economy only,17.5,-22.5
+Scale economy only,17.75,-22.499999999999986
+Scale economy only,18.0,-22.5
+Scale economy only,18.25,-22.5
+Scale economy only,18.5,-22.5
+Scale economy only,18.75,-22.5
+Scale economy only,19.0,-22.5
+Scale economy only,19.25,-22.499999999999986
+Scale economy only,19.5,-22.5
+Scale economy only,19.75,-22.499999999999986
+Scale economy only,20.0,-22.499999999999986
+Scale economy only,20.25,-22.500000000000014
+Scale economy only,20.5,-22.5
+Scale economy only,20.75,-22.5
+Scale economy only,21.0,-22.5
+Scale economy only,21.25,-22.499999999999986
+Scale economy only,21.5,-22.5
+Scale economy only,21.75,-22.499999999999986
+Scale economy only,22.0,-22.5
+Scale economy only,22.25,-22.5
+Scale economy only,22.5,-22.5
+Scale economy only,22.75,-22.5
+Scale economy only,23.0,-22.5
+Scale economy only,23.25,-22.500000000000014
+Scale economy only,23.5,-22.499999999999986
+Scale economy only,23.75,-22.5
+Scale economy only,24.0,-22.5
+Scale economy only,24.25,-22.5
+Scale economy only,24.5,-22.5
+Scale economy only,24.75,-22.5
+Scale economy only,25.0,-22.500000000000014
+Scale economy only,25.25,-22.5
+Scale economy only,25.5,-22.5
+Scale economy only,25.75,-22.5
+Scale economy only,26.0,-22.5
+Scale economy only,26.25,-22.5
+Scale economy only,26.5,-22.500000000000014
+Scale economy only,26.75,-22.499999999999986
+Scale economy only,27.0,-22.5
+Scale economy only,27.25,-22.5
+Scale economy only,27.5,-22.499999999999986
+Scale economy only,27.75,-22.5
+Scale economy only,28.0,-22.5
+Scale economy only,28.25,-22.5
+Scale economy only,28.5,-22.5
+Scale economy only,28.75,-22.5
+Scale economy only,29.0,-22.5
+Scale economy only,29.25,-22.5
+Scale economy only,29.5,-22.500000000000014
+Scale economy only,29.75,-22.5
+Scale economy only,30.0,-22.5
+Scale economy only,30.25,-22.5
+Scale economy only,30.5,-22.499999999999986
+Scale economy only,30.75,-22.499999999999986
+Scale economy only,31.0,-22.5
+Scale economy only,31.25,-22.499999999999986
+Scale economy only,31.5,-22.500000000000014
+Scale economy only,31.75,-22.499999999999986
+Scale economy only,32.0,-22.5
+Scale economy only,32.25,-22.5
+Scale economy only,32.5,-22.499999999999986
+Scale economy only,32.75,-22.5
+Scale economy only,33.0,-22.499999999999986
+Scale economy only,33.25,-22.5
+Scale economy only,33.5,-22.5
+Scale economy only,33.75,-22.5
+Scale economy only,34.0,-22.5
+Scale economy only,34.25,-22.500000000000014
+Scale economy only,34.5,-22.5
+Scale economy only,34.75,-22.499999999999986
+Scale economy only,35.0,-22.499999999999986
+Scale economy only,35.25,-22.499999999999986
+Scale economy only,35.5,-22.5
+Scale economy only,35.75,-22.5
+Scale economy only,36.0,-22.5
+Scale economy only,36.25,-22.5
+Scale economy only,36.5,-22.500000000000014
+Scale economy only,36.75,-22.500000000000014
+Scale economy only,37.0,-22.5
+Scale economy only,37.25,-22.5
+Scale economy only,37.5,-22.500000000000014
+Scale economy only,37.75,-22.5
+Scale economy only,38.0,-22.5
+Scale economy only,38.25,-22.5
+Scale economy only,38.5,-22.5
+Scale economy only,38.75,-22.5
+Scale economy only,39.0,-22.5
+Scale economy only,39.25,-22.5
+Scale economy only,39.5,-22.5
+Scale economy only,39.75,-22.5
+Scale economy only,40.0,-22.5
+Scale economy only,40.25,-22.5
+Scale economy only,40.5,-22.5
+Scale economy only,40.75,-22.5
+Scale economy only,41.0,-22.5
+Scale economy only,41.25,-22.5
+Scale economy only,41.5,-22.5
+Scale economy only,41.75,-22.5
+Scale economy only,42.0,-22.5
+Scale economy only,42.25,-22.5
+Scale economy only,42.5,-22.5
+Scale economy only,42.75,-22.5
+Scale economy only,43.0,-22.5
+Scale economy only,43.25,-22.5
+Scale economy only,43.5,-22.5
+Scale economy only,43.75,-22.5
+Scale economy only,44.0,-22.5
+Scale economy only,44.25,-22.5
+Scale economy only,44.5,-22.5
+Scale economy only,44.75,-22.5
+Scale economy only,45.0,-22.5
+Scale economy only,45.25,-22.5
+Scale economy only,45.5,-22.5
+Scale economy only,45.75,-22.5
+Scale economy only,46.0,-22.5
+Scale economy only,46.25,-22.5
+Scale economy only,46.5,-22.5
+Scale economy only,46.75,-22.5
+Scale economy only,47.0,-22.5
+Scale economy only,47.25,-22.5
+Scale economy only,47.5,-22.5
+Scale economy only,47.75,-22.5
+Scale economy only,48.0,-22.5
+Scale economy only,48.25,-22.5
+Scale economy only,48.5,-22.5
+Scale economy only,48.75,-22.5
+Scale economy only,49.0,-22.5
+Scale economy only,49.25,-22.5
+Scale economy only,49.5,-22.5
+Scale economy only,49.75,-22.5
+Scale economy only,50.0,-22.5
+Scale economy only,50.25,-22.5
+Scale economy only,50.5,-22.5
+Scale economy only,50.75,-22.5
+Scale economy only,51.0,-22.5
+Scale economy only,51.25,-22.5
+Scale economy only,51.5,-22.5
+Scale economy only,51.75,-22.5
+Scale economy only,52.0,-22.5
+Scale economy only,52.25,-22.5
+Scale economy only,52.5,-22.5
+Scale economy only,52.75,-22.5
+Scale economy only,53.0,-22.5
+Scale economy only,53.25,-22.5
+Scale economy only,53.5,-22.5
+Scale economy only,53.75,-22.5
+Scale economy only,54.0,-22.5
+Scale economy only,54.25,-22.5
+Scale economy only,54.5,-22.5
+Scale economy only,54.75,-22.5
+Scale economy only,55.0,-22.5
+Scale economy only,55.25,-22.5
+Scale economy only,55.5,-22.5
+Scale economy only,55.75,-22.5
+Scale economy only,56.0,-22.5
+Scale economy only,56.25,-22.5
+Scale economy only,56.5,-22.5
+Scale economy only,56.75,-22.5
+Scale economy only,57.0,-22.5
+Scale economy only,57.25,-22.5
+Scale economy only,57.5,-22.5
+Scale economy only,57.75,-22.5
+Scale economy only,58.0,-22.5
+Scale economy only,58.25,-22.5
+Scale economy only,58.5,-22.5
+Scale economy only,58.75,-22.5
+Scale economy only,59.0,-22.5
+Scale economy only,59.25,-22.5
+Scale economy only,59.5,-22.5
+Scale economy only,59.75,-22.5
+Scale economy only,60.0,-22.5
+Scale economy only,60.25,-22.5
+Scale economy only,60.5,-22.5
+Scale economy only,60.75,-22.5
+Scale economy only,61.0,-22.5
+Scale economy only,61.25,-22.5
+Scale economy only,61.5,-22.5
+Scale economy only,61.75,-22.5
+Scale economy only,62.0,-22.5
+Scale economy only,62.25,-22.5
+Scale economy only,62.5,-22.5
+Scale economy only,62.75,-22.5
+Scale economy only,63.0,-22.5
+Scale economy only,63.25,-22.5
+Scale economy only,63.5,-22.5
+Scale economy only,63.75,-22.5
+Scale economy only,64.0,-22.5
+Scale economy only,64.25,-22.5
+Scale economy only,64.5,-22.499999999999986
+Scale economy only,64.75,-22.5
+Scale economy only,65.0,-22.500000000000014
+Scale economy only,65.25,-22.5
+Scale economy only,65.5,-22.5
+Scale economy only,65.75,-22.5
+Scale economy only,66.0,-22.499999999999986
+Scale economy only,66.25,-22.500000000000014
+Scale economy only,66.5,-22.5
+Scale economy only,66.75,-22.5
+Scale economy only,67.0,-22.500000000000014
+Scale economy only,67.25,-22.499999999999986
+Scale economy only,67.5,-22.5
+Scale economy only,67.75,-22.499999999999986
+Scale economy only,68.0,-22.5
+Scale economy only,68.25,-22.5
+Scale economy only,68.5,-22.5
+Scale economy only,68.75,-22.499999999999986
+Scale economy only,69.0,-22.5
+Scale economy only,69.25,-22.5
+Scale economy only,69.5,-22.5
+Scale economy only,69.75,-22.5
+Scale economy only,70.0,-22.5
+Scale economy only,70.25,-22.5
+Scale economy only,70.5,-22.500000000000014
+Scale economy only,70.75,-22.499999999999986
+Scale economy only,71.0,-22.5
+Scale economy only,71.25,-22.499999999999986
+Scale economy only,71.5,-22.5
+Scale economy only,71.75,-22.5
+Scale economy only,72.0,-22.500000000000014
+Scale economy only,72.25,-22.5
+Scale economy only,72.5,-22.5
+Scale economy only,72.75,-22.500000000000014
+Scale economy only,73.0,-22.499999999999986
+Scale economy only,73.25,-22.499999999999986
+Scale economy only,73.5,-22.5
+Scale economy only,73.75,-22.5
+Scale economy only,74.0,-22.5
+Scale economy only,74.25,-22.5
+Scale economy only,74.5,-22.5
+Scale economy only,74.75,-22.5
+Scale economy only,75.0,-22.499999999999986
+Scale economy only,75.25,-22.5
+Scale economy only,75.5,-22.499999999999986
+Scale economy only,75.75,-22.500000000000014
+Scale economy only,76.0,-22.5
+Scale economy only,76.25,-22.5
+Scale economy only,76.5,-22.500000000000014
+Scale economy only,76.75,-22.499999999999986
+Scale economy only,77.0,-22.5
+Scale economy only,77.25,-22.500000000000014
+Scale economy only,77.5,-22.5
+Scale economy only,77.75,-22.499999999999986
+Scale economy only,78.0,-22.5
+Scale economy only,78.25,-22.5
+Scale economy only,78.5,-22.500000000000014
+Scale economy only,78.75,-22.5
+Scale economy only,79.0,-22.499999999999986
+Scale economy only,79.25,-22.5
+Scale economy only,79.5,-22.5
+Scale economy only,79.75,-22.5
+Scale economy only,80.0,-22.5
+Scale economy only,80.25,-22.5
+Scale economy only,80.5,-22.5
+Scale economy only,80.75,-22.499999999999986
+Scale economy only,81.0,-22.5
+Scale economy only,81.25,-22.5
+Scale economy only,81.5,-22.5
+Scale economy only,81.75,-22.500000000000014
+Scale economy only,82.0,-22.5
+Scale economy only,82.25,-22.5
+Scale economy only,82.5,-22.5
+Scale economy only,82.75,-22.5
+Scale economy only,83.0,-22.5
+Scale economy only,83.25,-22.499999999999986
+Scale economy only,83.5,-22.5
+Scale economy only,83.75,-22.499999999999986
+Scale economy only,84.0,-22.5
+Scale economy only,84.25,-22.499999999999986
+Scale economy only,84.5,-22.5
+Scale economy only,84.75,-22.499999999999986
+Scale economy only,85.0,-22.5
+Scale economy only,85.25,-22.499999999999986
+Scale economy only,85.5,-22.5
+Scale economy only,85.75,-22.499999999999986
+Scale economy only,86.0,-22.5
+Scale economy only,86.25,-22.5
+Scale economy only,86.5,-22.5
+Scale economy only,86.75,-22.5
+Scale economy only,87.0,-22.499999999999986
+Scale economy only,87.25,-22.5
+Scale economy only,87.5,-22.499999999999986
+Scale economy only,87.75,-22.499999999999986
+Scale economy only,88.0,-22.5
+Scale economy only,88.25,-22.499999999999986
+Scale economy only,88.5,-22.5
+Scale economy only,88.75,-22.500000000000014
+Scale economy only,89.0,-22.499999999999986
+Scale economy only,89.25,-22.5
+Scale economy only,89.5,-22.499999999999986
+Scale economy only,89.75,-22.5
+Scale economy only,90.0,-22.5
+Different demand only,0.0,25.0
+Different demand only,0.25,25.165974147222485
+Different demand only,0.5,25.33057092356765
+Different demand only,0.75,25.493801759433353
+Different demand only,1.0,25.65567799035989
+Different demand only,1.25,25.81621085781724
+Different demand only,1.5,25.97541150998572
+Different demand only,1.75,26.133291002530157
+Different demand only,2.0,26.289860299367646
+Different demand only,2.25,26.445130273428944
+Different demand only,2.5,26.599111707413527
+Different demand only,2.75,26.751815294538446
+Different demand only,3.0,26.90325163928081
+Different demand only,3.25,27.053431258114315
+Different demand only,3.5,27.202364580239532
+Different demand only,3.75,27.350061948308095
+Different demand only,4.0,27.496533619141047
+Different demand only,4.25,27.64178976444107
+Different demand only,4.5,27.785840471498844
+Different demand only,4.75,27.928695743893584
+Different demand only,5.0,28.070365502187713
+Different demand only,5.25,28.21085958461586
+Different demand only,5.5,28.350187747767947
+Different demand only,5.75,28.488359667266877
+Different demand only,6.0,28.625384938440362
+Different demand only,6.25,28.761273076987294
+Different demand only,6.5,28.896033519638593
+Different demand only,6.75,29.029675624812455
+Different demand only,7.0,29.16220867326436
+Different demand only,7.25,29.2936418687315
+Different demand only,7.5,29.4239843385719
+Different demand only,7.75,29.55324513439838
+Different demand only,8.0,29.681433232707022
+Different demand only,8.25,29.808557535500626
+Different demand only,8.5,29.934626870906868
+Different demand only,8.630462173553427,30.0
+Different demand only,8.75,30.059649993791353
+Different demand only,9.0,30.18363558636564
+Different demand only,9.25,30.306592258790175
+Different demand only,9.5,30.42852854977214
+Different demand only,9.75,30.549452927158555
+Different demand only,10.0,30.66937378852421
+Different demand only,10.25,30.788299461754903
+Different demand only,10.5,30.906238205625726
+Different demand only,10.75,31.02319821037463
+Different demand only,11.0,31.139187598271178
+Different demand only,11.25,31.25421442418056
+Different demand only,11.5,31.368286676123034
+Different demand only,11.75,31.48141227582863
+Different demand only,12.0,31.593599079287216
+Different demand only,12.25,31.70485487729411
+Different demand only,12.5,31.81518739599113
+Different demand only,12.75,31.92460429740305
+Different demand only,13.0,32.0331131799698
+Different demand only,13.25,32.140721579074054
+Different demand only,13.5,32.24743696756454
+Different demand only,13.75,32.353266756275005
+Different demand only,14.0,32.45821829453888
+Different demand only,14.25,32.56229887069961
+Different demand only,14.5,32.66551571261678
+Different demand only,14.75,32.76787598816816
+Different demand only,15.0,32.869386805747325
+Different demand only,15.25,32.97005521475742
+Different demand only,15.5,33.06988820610064
+Different demand only,15.75,33.168892712663705
+Different demand only,16.0,33.26707560979936
+Different demand only,16.25,33.36444371580383
+Different demand only,16.5,33.46100379239027
+Different demand only,16.75,33.556762545158335
+Different demand only,17.0,33.65172662405993
+Different demand only,17.25,33.745902623860886
+Different demand only,17.5,33.83929708459905
+Different demand only,17.75,33.93191649203841
+Different demand only,18.0,34.023767278119465
+Different demand only,18.25,34.11485582140595
+Different demand only,18.5,34.205188447527746
+Different demand only,18.75,34.2947714296202
+Different demand only,19.0,34.38361098875973
+Different demand only,19.25,34.471713294395855
+Different demand only,19.5,34.55908446477969
+Different demand only,19.75,34.64573056738868
+Different demand only,20.0,34.731657619348155
+Different demand only,20.25,34.81687158784902
+Different demand only,20.5,34.9013783905622
+Different demand only,20.75,34.98518389604965
+Different demand only,21.0,35.06829392417181
+Different demand only,21.25,35.1507142464918
+Different demand only,21.5,35.232450586676265
+Different demand only,21.75,35.31350862089275
+Different demand only,22.0,35.393893978204005
+Different demand only,22.25,35.47361224095883
+Different demand only,22.5,35.552668945179704
+Different demand only,22.75,35.631069580947326
+Different demand only,23.0,35.708819592781765
+Different demand only,23.25,35.78592438002069
+Different demand only,23.5,35.862389297194156
+Different demand only,23.75,35.93821965439662
+Different demand only,24.0,36.01342071765558
+Different demand only,24.25,36.087997709297284
+Different demand only,24.5,36.1619558083095
+Different demand only,24.75,36.23530015070102
+Different demand only,25.0,36.30803582985844
+Different demand only,25.25,36.38016789689982
+Different demand only,25.5,36.45170136102547
+Different demand only,25.75,36.52264118986581
+Different demand only,26.0,36.59299230982637
+Different demand only,26.25,36.66275960642983
+Different demand only,26.5,36.731947924655415
+Different demand only,26.75,36.80056206927523
+Different demand only,27.0,36.86860680518802
+Different demand only,27.25,36.93608685775
+Different demand only,27.5,37.00300691310305
+Different demand only,27.75,37.06937161850014
+Different demand only,28.0,37.135185582628026
+Different demand only,28.25,37.20045337592735
+Different demand only,28.5,37.265179530909975
+Different demand only,28.75,37.32936854247379
+Different demand only,29.0,37.39302486821484
+Different demand only,29.25,37.456152928736856
+Different demand only,29.5,37.51875710795835
+Different demand only,29.75,37.58084175341689
+Different demand only,30.0,37.64241117657116
+Different demand only,30.25,37.70346965310026
+Different demand only,30.5,37.764021423200745
+Different demand only,30.75,37.82407069188096
+Different demand only,31.0,37.883621629253156
+Different demand only,31.25,37.94267837082302
+Different demand only,31.5,38.001245017776895
+Different demand only,31.75,38.05932563726657
+Different demand only,32.0,38.116924262691754
+Different demand only,32.25,38.174044893980124
+Different demand only,32.5,38.23069149786515
+Different demand only,32.75,38.28686800816155
+Different demand only,33.0,38.34257832603841
+Different demand only,33.25,38.39782632029022
+Different demand only,33.5,38.452615827605456
+Different demand only,33.75,38.50695065283301
+Different demand only,34.0,38.56083456924648
+Different demand only,34.25,38.614271318806175
+Different demand only,34.5,38.66726461241893
+Different demand only,34.75,38.719818130195904
+Different demand only,35.0,38.771935521708045
+Different demand only,35.25,38.8236204062396
+Different demand only,35.5,38.87487637303944
+Different demand only,35.75,38.9257069815703
+Different demand only,36.0,38.97611576175595
+Different demand only,36.25,39.02610621422643
+Different demand only,36.5,39.07568181056101
+Different demand only,36.75,39.12484599352935
+Different demand only,37.0,39.17360217733058
+Different demand only,37.25,39.22195374783041
+Different demand only,37.5,39.2699040627962
+Different demand only,37.75,39.317456452130216
+Different demand only,38.0,39.364614218100826
+Different demand only,38.25,39.411380635571845
+Different demand only,38.5,39.45775895222995
+Different demand only,38.75,39.5037523888102
+Different demand only,39.0,39.54936413931975
+Different demand only,39.25,39.59459737125958
+Different demand only,39.5,39.63945522584456
+Different demand only,39.75,39.68394081822147
+Different demand only,40.0,39.72805723768546
+Different demand only,40.25,39.77180754789451
+Different demand only,40.5,39.81519478708216
+Different demand only,40.75,39.85822196826861
+Different demand only,41.0,39.9008920794698
+Different demand only,41.25,39.94320808390506
+Different demand only,41.5,39.98517292020284
+Different demand only,41.75,40.026789502604714
+Different demand only,42.0,40.06806072116787
+Different demand only,42.25,40.10898944196573
+Different demand only,42.5,40.14957850728703
+Different demand only,42.75,40.189830735833155
+Different demand only,43.0,40.229748922913956
+Different demand only,43.25,40.26933584064177
+Different demand only,43.5,40.308594238124044
+Different demand only,43.75,40.347526841654144
+Different demand only,44.0,40.38613635490074
+Different demand only,44.25,40.424425459095545
+Different demand only,44.5,40.46239681321953
+Different demand only,44.75,40.50005305418752
+Different demand only,45.0,40.537396797031406
+Different demand only,45.25,40.574430635081654
+Different demand only,45.5,40.61115714014747
+Different demand only,45.75,40.64757886269534
+Different demand only,46.0,40.68369833202621
+Different demand only,46.25,40.71951805645105
+Different demand only,46.5,40.75504052346514
+Different demand only,46.75,40.79026819992073
+Different demand only,47.0,40.8252035321984
+Different demand only,47.25,40.85984894637694
+Different demand only,47.5,40.89420684840181
+Different demand only,47.75,40.92827962425224
+Different demand only,48.0,40.96206964010689
+Different demand only,48.25,40.99557924250824
+Different demand only,48.5,41.02881075852548
+Different demand only,48.75,41.06176649591612
+Different demand only,49.0,41.09444874328628
+Different demand only,49.25,41.126859770249624
+Different demand only,49.5,41.159001827584916
+Different demand only,49.75,41.1908771473924
+Different demand only,50.0,41.222487943248765
+Different demand only,50.25,41.25383641036086
+Different demand only,50.5,41.28492472571817
+Different demand only,50.75,41.315755048243986
+Different demand only,51.0,41.34632951894531
+Different demand only,51.25,41.376650261061556
+Different demand only,51.5,41.40671938021201
+Different demand only,51.75,41.436538964542024
+Different demand only,52.0,41.46611108486806
+Different demand only,52.25,41.49543779482147
+Different demand only,52.5,41.524521130991104
+Different demand only,52.75,41.553363113064776
+Different demand only,53.0,41.581965743969505
+Different demand only,53.25,41.6103310100106
+Different demand only,53.5,41.63846088100959
+Different demand only,53.75,41.66635731044107
+Different demand only,54.0,41.69402223556827
+Different demand only,54.25,41.72145757757767
+Different demand only,54.5,41.74866524171239
+Different demand only,54.75,41.77564711740446
+Different demand only,55.0,41.802405078406125
+Different demand only,55.25,41.828940982919846
+Different demand only,55.5,41.85525667372744
+Different demand only,55.75,41.88135397831803
+Different demand only,56.0,41.9072347090149
+Different demand only,56.25,41.932900663101435
+Different demand only,56.5,41.95835362294585
+Different demand only,56.75,41.98359535612505
+Different demand only,57.0,42.0086276155473
+Different demand only,57.25,42.033452139574024
+Different demand only,57.5,42.05807065214046
+Different demand only,57.75,42.08248486287545
+Different demand only,58.0,42.106696467220104
+Different demand only,58.25,42.13070714654555
+Different demand only,58.5,42.15451856826974
+Different demand only,58.75,42.17813238597317
+Different demand only,59.0,42.20155023951381
+Different demand only,59.25,42.22477375514089
+Different demand only,59.5,42.24780454560789
+Different demand only,59.75,42.2706442102845
+Different demand only,60.0,42.293294335267746
+Different demand only,60.25,42.31575649349206
+Different demand only,60.5,42.33803224483856
+Different demand only,60.75,42.3601231362434
+Different demand only,61.0,42.38203070180512
+Different demand only,61.25,42.40375646289124
+Different demand only,61.5,42.42530192824391
+Different demand only,61.75,42.44666859408467
+Different demand only,62.0,42.46785794421832
+Different demand only,62.25,42.48887145013606
+Different demand only,62.5,42.50971057111754
+Different demand only,62.75,42.53037675433234
+Different demand only,63.0,42.55087143494036
+Different demand only,63.25,42.571196036191566
+Different demand only,63.5,42.59135196952475
+Different demand only,63.75,42.61134063466561
+Different demand only,64.0,42.63116341972392
+Different demand only,64.25,42.65082170128997
+Different demand only,64.5,42.67031684453008
+Different demand only,64.75,42.689650203281445
+Different demand only,65.0,42.708823120146235
+Different demand only,65.25,42.72783692658473
+Different demand only,65.5,42.74669294300776
+Different demand only,65.75,42.76539247886848
+Different demand only,66.0,42.78393683275334
+Different demand only,66.25,42.80232729247206
+Different demand only,66.5,42.820565135147376
+Different demand only,66.75,42.83865162730342
+Different demand only,67.0,42.85658802495385
+Different demand only,67.25,42.87437557368912
+Different demand only,67.5,42.89201550876271
+Different demand only,67.75,42.909509055177296
+Different demand only,68.0,42.92685742776945
+Different demand only,68.25,42.94406183129428
+Different demand only,68.5,42.96112346050893
+Different demand only,68.75,42.97804350025564
+Different demand only,69.0,42.99482312554392
+Different demand only,69.25,43.011463501632335
+Different demand only,69.5,43.0279657841092
+Different demand only,69.75,43.04433111897299
+Different demand only,70.0,43.06056064271189
+Different demand only,70.25,43.07665548238268
+Different demand only,70.5,43.092616755688994
+Different demand only,70.75,43.108445571059065
+Different demand only,71.0,43.12414302772248
+Different demand only,71.25,43.13971021578675
+Different demand only,71.5,43.155148216312796
+Different demand only,71.75,43.17045810139027
+Different demand only,72.0,43.18564093421173
+Different demand only,72.25,43.20069776914673
+Different demand only,72.5,43.215629651814794
+Different demand only,72.75,43.23043761915824
+Different demand only,73.0,43.24512269951413
+Different demand only,73.25,43.25968591268554
+Different demand only,73.5,43.274128270012596
+Different demand only,73.75,43.288450774442595
+Different demand only,74.0,43.30265442059965
+Different demand only,74.25,43.31674019485379
+Different demand only,74.5,43.33070907538945
+Different demand only,74.75,43.34456203227336
+Different demand only,75.0,43.358300027522034
+Different demand only,75.25,43.37192401516839
+Different demand only,75.5,43.385434941328185
+Different demand only,75.75,43.39883374426557
+Different demand only,76.0,43.412121354458435
+Different demand only,76.25,43.42529869466276
+Different demand only,76.5,43.43836667997692
+Different demand only,76.75,43.451326217905205
+Different demand only,77.0,43.464178208420634
+Different demand only,77.25,43.476923544027784
+Different demand only,77.5,43.48956310982453
+Different demand only,77.75,43.502097783563556
+Different demand only,78.0,43.514528435713316
+Different demand only,78.25,43.526855929518604
+Different demand only,78.5,43.53908112106029
+Different demand only,78.75,43.551204859314964
+Different demand only,79.0,43.56322798621375
+Different demand only,79.25,43.5751513367008
+Different demand only,79.5,43.58697573879141
+Different demand only,79.75,43.59870201362935
+Different demand only,80.0,43.610330975543974
+Different demand only,80.25,43.62186343210675
+Different demand only,80.5,43.63330018418736
+Different demand only,80.75,43.64464202600931
+Different demand only,81.0,43.655889745205
+Different demand only,81.25,43.667044122870635
+Different demand only,81.5,43.67810593362023
+Different demand only,81.75,43.6890759456395
+Different demand only,82.0,43.699954920739316
+Different demand only,82.25,43.71074361440836
+Different demand only,82.5,43.72144277586585
+Different demand only,82.75,43.73205314811338
+Different demand only,83.0,43.742575467986654
+Different demand only,83.25,43.75301046620655
+Different demand only,83.5,43.76335886742987
+Different demand only,83.75,43.77362139029981
+Different demand only,84.0,43.78379874749564
+Different demand only,84.25,43.79389164578242
+Different demand only,84.5,43.80390078605987
+Different demand only,84.75,43.813826863411236
+Different demand only,85.0,43.823670567151396
+Different demand only,85.25,43.8334325808749
+Different demand only,85.5,43.843113582503236
+Different demand only,85.75,43.852714244332105
+Different demand only,86.0,43.86223523307797
+Different demand only,86.25,43.87167720992446
+Different demand only,86.5,43.88104083056817
+Different demand only,86.75,43.89032674526433
+Different demand only,87.0,43.899535598871864
+Different demand only,87.25,43.908668030898156
+Different demand only,87.5,43.91772467554358
+Different demand only,87.75,43.926706161745415
+Different demand only,88.0,43.935613113221564
+Different demand only,88.25,43.944446148513975
+Different demand only,88.5,43.95320588103135
+Different demand only,88.75,43.96189291909201
+Different demand only,89.0,43.970507865966
+Different demand only,89.25,43.97905131991692
+Different demand only,89.5,43.987523874243664
+Different demand only,89.75,43.99592611732143
+Different demand only,90.0,44.00425863264272
+Neither mechanism,0.0,0.0
+Neither mechanism,0.25,0.0
+Neither mechanism,0.5,0.0
+Neither mechanism,0.75,0.0
+Neither mechanism,1.0,0.0
+Neither mechanism,1.25,0.0
+Neither mechanism,1.5,0.0
+Neither mechanism,1.75,0.0
+Neither mechanism,2.0,0.0
+Neither mechanism,2.25,0.0
+Neither mechanism,2.5,0.0
+Neither mechanism,2.75,0.0
+Neither mechanism,3.0,0.0
+Neither mechanism,3.25,0.0
+Neither mechanism,3.5,0.0
+Neither mechanism,3.75,0.0
+Neither mechanism,4.0,0.0
+Neither mechanism,4.25,0.0
+Neither mechanism,4.5,0.0
+Neither mechanism,4.75,0.0
+Neither mechanism,5.0,0.0
+Neither mechanism,5.25,0.0
+Neither mechanism,5.5,0.0
+Neither mechanism,5.75,0.0
+Neither mechanism,6.0,0.0
+Neither mechanism,6.25,0.0
+Neither mechanism,6.5,0.0
+Neither mechanism,6.75,0.0
+Neither mechanism,7.0,0.0
+Neither mechanism,7.25,0.0
+Neither mechanism,7.5,0.0
+Neither mechanism,7.75,0.0
+Neither mechanism,8.0,0.0
+Neither mechanism,8.25,0.0
+Neither mechanism,8.5,0.0
+Neither mechanism,8.630462173553427,0.0
+Neither mechanism,8.75,0.0
+Neither mechanism,9.0,0.0
+Neither mechanism,9.25,0.0
+Neither mechanism,9.5,0.0
+Neither mechanism,9.75,0.0
+Neither mechanism,10.0,0.0
+Neither mechanism,10.25,0.0
+Neither mechanism,10.5,0.0
+Neither mechanism,10.75,0.0
+Neither mechanism,11.0,0.0
+Neither mechanism,11.25,0.0
+Neither mechanism,11.5,0.0
+Neither mechanism,11.75,0.0
+Neither mechanism,12.0,0.0
+Neither mechanism,12.25,0.0
+Neither mechanism,12.5,0.0
+Neither mechanism,12.75,0.0
+Neither mechanism,13.0,0.0
+Neither mechanism,13.25,0.0
+Neither mechanism,13.5,0.0
+Neither mechanism,13.75,0.0
+Neither mechanism,14.0,0.0
+Neither mechanism,14.25,0.0
+Neither mechanism,14.5,0.0
+Neither mechanism,14.75,0.0
+Neither mechanism,15.0,0.0
+Neither mechanism,15.25,0.0
+Neither mechanism,15.5,0.0
+Neither mechanism,15.75,0.0
+Neither mechanism,16.0,0.0
+Neither mechanism,16.25,0.0
+Neither mechanism,16.5,0.0
+Neither mechanism,16.75,0.0
+Neither mechanism,17.0,0.0
+Neither mechanism,17.25,0.0
+Neither mechanism,17.5,0.0
+Neither mechanism,17.75,0.0
+Neither mechanism,18.0,0.0
+Neither mechanism,18.25,0.0
+Neither mechanism,18.5,0.0
+Neither mechanism,18.75,0.0
+Neither mechanism,19.0,0.0
+Neither mechanism,19.25,0.0
+Neither mechanism,19.5,0.0
+Neither mechanism,19.75,0.0
+Neither mechanism,20.0,0.0
+Neither mechanism,20.25,0.0
+Neither mechanism,20.5,0.0
+Neither mechanism,20.75,0.0
+Neither mechanism,21.0,0.0
+Neither mechanism,21.25,0.0
+Neither mechanism,21.5,0.0
+Neither mechanism,21.75,0.0
+Neither mechanism,22.0,0.0
+Neither mechanism,22.25,0.0
+Neither mechanism,22.5,0.0
+Neither mechanism,22.75,0.0
+Neither mechanism,23.0,0.0
+Neither mechanism,23.25,0.0
+Neither mechanism,23.5,0.0
+Neither mechanism,23.75,0.0
+Neither mechanism,24.0,0.0
+Neither mechanism,24.25,0.0
+Neither mechanism,24.5,0.0
+Neither mechanism,24.75,0.0
+Neither mechanism,25.0,0.0
+Neither mechanism,25.25,0.0
+Neither mechanism,25.5,0.0
+Neither mechanism,25.75,0.0
+Neither mechanism,26.0,0.0
+Neither mechanism,26.25,0.0
+Neither mechanism,26.5,0.0
+Neither mechanism,26.75,0.0
+Neither mechanism,27.0,0.0
+Neither mechanism,27.25,0.0
+Neither mechanism,27.5,0.0
+Neither mechanism,27.75,0.0
+Neither mechanism,28.0,0.0
+Neither mechanism,28.25,0.0
+Neither mechanism,28.5,0.0
+Neither mechanism,28.75,0.0
+Neither mechanism,29.0,0.0
+Neither mechanism,29.25,0.0
+Neither mechanism,29.5,0.0
+Neither mechanism,29.75,0.0
+Neither mechanism,30.0,0.0
+Neither mechanism,30.25,0.0
+Neither mechanism,30.5,0.0
+Neither mechanism,30.75,0.0
+Neither mechanism,31.0,0.0
+Neither mechanism,31.25,0.0
+Neither mechanism,31.5,0.0
+Neither mechanism,31.75,0.0
+Neither mechanism,32.0,0.0
+Neither mechanism,32.25,0.0
+Neither mechanism,32.5,0.0
+Neither mechanism,32.75,0.0
+Neither mechanism,33.0,0.0
+Neither mechanism,33.25,0.0
+Neither mechanism,33.5,0.0
+Neither mechanism,33.75,0.0
+Neither mechanism,34.0,0.0
+Neither mechanism,34.25,0.0
+Neither mechanism,34.5,0.0
+Neither mechanism,34.75,0.0
+Neither mechanism,35.0,0.0
+Neither mechanism,35.25,0.0
+Neither mechanism,35.5,0.0
+Neither mechanism,35.75,0.0
+Neither mechanism,36.0,0.0
+Neither mechanism,36.25,0.0
+Neither mechanism,36.5,0.0
+Neither mechanism,36.75,0.0
+Neither mechanism,37.0,0.0
+Neither mechanism,37.25,0.0
+Neither mechanism,37.5,0.0
+Neither mechanism,37.75,0.0
+Neither mechanism,38.0,0.0
+Neither mechanism,38.25,0.0
+Neither mechanism,38.5,0.0
+Neither mechanism,38.75,0.0
+Neither mechanism,39.0,0.0
+Neither mechanism,39.25,0.0
+Neither mechanism,39.5,0.0
+Neither mechanism,39.75,0.0
+Neither mechanism,40.0,0.0
+Neither mechanism,40.25,0.0
+Neither mechanism,40.5,0.0
+Neither mechanism,40.75,0.0
+Neither mechanism,41.0,0.0
+Neither mechanism,41.25,0.0
+Neither mechanism,41.5,0.0
+Neither mechanism,41.75,0.0
+Neither mechanism,42.0,0.0
+Neither mechanism,42.25,0.0
+Neither mechanism,42.5,0.0
+Neither mechanism,42.75,0.0
+Neither mechanism,43.0,0.0
+Neither mechanism,43.25,0.0
+Neither mechanism,43.5,0.0
+Neither mechanism,43.75,0.0
+Neither mechanism,44.0,0.0
+Neither mechanism,44.25,0.0
+Neither mechanism,44.5,0.0
+Neither mechanism,44.75,0.0
+Neither mechanism,45.0,0.0
+Neither mechanism,45.25,0.0
+Neither mechanism,45.5,0.0
+Neither mechanism,45.75,0.0
+Neither mechanism,46.0,0.0
+Neither mechanism,46.25,0.0
+Neither mechanism,46.5,0.0
+Neither mechanism,46.75,0.0
+Neither mechanism,47.0,0.0
+Neither mechanism,47.25,0.0
+Neither mechanism,47.5,0.0
+Neither mechanism,47.75,0.0
+Neither mechanism,48.0,0.0
+Neither mechanism,48.25,0.0
+Neither mechanism,48.5,0.0
+Neither mechanism,48.75,0.0
+Neither mechanism,49.0,0.0
+Neither mechanism,49.25,0.0
+Neither mechanism,49.5,0.0
+Neither mechanism,49.75,0.0
+Neither mechanism,50.0,0.0
+Neither mechanism,50.25,0.0
+Neither mechanism,50.5,0.0
+Neither mechanism,50.75,0.0
+Neither mechanism,51.0,0.0
+Neither mechanism,51.25,0.0
+Neither mechanism,51.5,0.0
+Neither mechanism,51.75,0.0
+Neither mechanism,52.0,0.0
+Neither mechanism,52.25,0.0
+Neither mechanism,52.5,0.0
+Neither mechanism,52.75,0.0
+Neither mechanism,53.0,0.0
+Neither mechanism,53.25,0.0
+Neither mechanism,53.5,0.0
+Neither mechanism,53.75,0.0
+Neither mechanism,54.0,0.0
+Neither mechanism,54.25,0.0
+Neither mechanism,54.5,0.0
+Neither mechanism,54.75,0.0
+Neither mechanism,55.0,0.0
+Neither mechanism,55.25,0.0
+Neither mechanism,55.5,0.0
+Neither mechanism,55.75,0.0
+Neither mechanism,56.0,0.0
+Neither mechanism,56.25,0.0
+Neither mechanism,56.5,0.0
+Neither mechanism,56.75,0.0
+Neither mechanism,57.0,0.0
+Neither mechanism,57.25,0.0
+Neither mechanism,57.5,0.0
+Neither mechanism,57.75,0.0
+Neither mechanism,58.0,0.0
+Neither mechanism,58.25,0.0
+Neither mechanism,58.5,0.0
+Neither mechanism,58.75,0.0
+Neither mechanism,59.0,0.0
+Neither mechanism,59.25,0.0
+Neither mechanism,59.5,0.0
+Neither mechanism,59.75,0.0
+Neither mechanism,60.0,0.0
+Neither mechanism,60.25,0.0
+Neither mechanism,60.5,0.0
+Neither mechanism,60.75,0.0
+Neither mechanism,61.0,0.0
+Neither mechanism,61.25,0.0
+Neither mechanism,61.5,0.0
+Neither mechanism,61.75,0.0
+Neither mechanism,62.0,0.0
+Neither mechanism,62.25,0.0
+Neither mechanism,62.5,0.0
+Neither mechanism,62.75,0.0
+Neither mechanism,63.0,0.0
+Neither mechanism,63.25,0.0
+Neither mechanism,63.5,0.0
+Neither mechanism,63.75,0.0
+Neither mechanism,64.0,0.0
+Neither mechanism,64.25,0.0
+Neither mechanism,64.5,0.0
+Neither mechanism,64.75,0.0
+Neither mechanism,65.0,0.0
+Neither mechanism,65.25,0.0
+Neither mechanism,65.5,0.0
+Neither mechanism,65.75,0.0
+Neither mechanism,66.0,0.0
+Neither mechanism,66.25,0.0
+Neither mechanism,66.5,0.0
+Neither mechanism,66.75,0.0
+Neither mechanism,67.0,0.0
+Neither mechanism,67.25,0.0
+Neither mechanism,67.5,0.0
+Neither mechanism,67.75,0.0
+Neither mechanism,68.0,0.0
+Neither mechanism,68.25,0.0
+Neither mechanism,68.5,0.0
+Neither mechanism,68.75,0.0
+Neither mechanism,69.0,0.0
+Neither mechanism,69.25,0.0
+Neither mechanism,69.5,0.0
+Neither mechanism,69.75,0.0
+Neither mechanism,70.0,0.0
+Neither mechanism,70.25,0.0
+Neither mechanism,70.5,0.0
+Neither mechanism,70.75,0.0
+Neither mechanism,71.0,0.0
+Neither mechanism,71.25,0.0
+Neither mechanism,71.5,0.0
+Neither mechanism,71.75,0.0
+Neither mechanism,72.0,0.0
+Neither mechanism,72.25,0.0
+Neither mechanism,72.5,0.0
+Neither mechanism,72.75,0.0
+Neither mechanism,73.0,0.0
+Neither mechanism,73.25,0.0
+Neither mechanism,73.5,0.0
+Neither mechanism,73.75,0.0
+Neither mechanism,74.0,0.0
+Neither mechanism,74.25,0.0
+Neither mechanism,74.5,0.0
+Neither mechanism,74.75,0.0
+Neither mechanism,75.0,0.0
+Neither mechanism,75.25,0.0
+Neither mechanism,75.5,0.0
+Neither mechanism,75.75,0.0
+Neither mechanism,76.0,0.0
+Neither mechanism,76.25,0.0
+Neither mechanism,76.5,0.0
+Neither mechanism,76.75,0.0
+Neither mechanism,77.0,0.0
+Neither mechanism,77.25,0.0
+Neither mechanism,77.5,0.0
+Neither mechanism,77.75,0.0
+Neither mechanism,78.0,0.0
+Neither mechanism,78.25,0.0
+Neither mechanism,78.5,0.0
+Neither mechanism,78.75,0.0
+Neither mechanism,79.0,0.0
+Neither mechanism,79.25,0.0
+Neither mechanism,79.5,0.0
+Neither mechanism,79.75,0.0
+Neither mechanism,80.0,0.0
+Neither mechanism,80.25,0.0
+Neither mechanism,80.5,0.0
+Neither mechanism,80.75,0.0
+Neither mechanism,81.0,0.0
+Neither mechanism,81.25,0.0
+Neither mechanism,81.5,0.0
+Neither mechanism,81.75,0.0
+Neither mechanism,82.0,0.0
+Neither mechanism,82.25,0.0
+Neither mechanism,82.5,0.0
+Neither mechanism,82.75,0.0
+Neither mechanism,83.0,0.0
+Neither mechanism,83.25,0.0
+Neither mechanism,83.5,0.0
+Neither mechanism,83.75,0.0
+Neither mechanism,84.0,0.0
+Neither mechanism,84.25,0.0
+Neither mechanism,84.5,0.0
+Neither mechanism,84.75,0.0
+Neither mechanism,85.0,0.0
+Neither mechanism,85.25,0.0
+Neither mechanism,85.5,0.0
+Neither mechanism,85.75,0.0
+Neither mechanism,86.0,0.0
+Neither mechanism,86.25,0.0
+Neither mechanism,86.5,0.0
+Neither mechanism,86.75,0.0
+Neither mechanism,87.0,0.0
+Neither mechanism,87.25,0.0
+Neither mechanism,87.5,0.0
+Neither mechanism,87.75,0.0
+Neither mechanism,88.0,0.0
+Neither mechanism,88.25,0.0
+Neither mechanism,88.5,0.0
+Neither mechanism,88.75,0.0
+Neither mechanism,89.0,0.0
+Neither mechanism,89.25,0.0
+Neither mechanism,89.5,0.0
+Neither mechanism,89.75,0.0
+Neither mechanism,90.0,0.0

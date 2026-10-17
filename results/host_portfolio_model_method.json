@@ -1,0 +1,38 @@
+{
+  "status": "Proposed theoretical illustration; not estimated, calibrated, or validated against Airbnb",
+  "parameters": {
+    "p0": 40.0,
+    "B": 40.0,
+    "tau_days": 30.0,
+    "small_N": 1,
+    "large_N": 20,
+    "small_cost": 50.0,
+    "large_cost": 35.0,
+    "small_elasticity": 3.0,
+    "large_elasticity": 2.0
+  },
+  "scale_cost_k": 5.007123010430011,
+  "types": "Two discrete host types: N=1 and N=20; no elasticity function for intermediate portfolios is assumed",
+  "waiting_value": "V(L)=B*(1-exp(-L/tau)); same expected NET continuation payoff for both types",
+  "waiting_microfoundation": "Optional common future net offer B, arrival intensity 1/tau; no common gross future price is imposed",
+  "scope": "One current potential guest, one available night, risk neutrality; later pricing is summarized by an exogenous continuation value",
+  "probability": "q(p)=(p0/p)^epsilon for p>=p0; q=1 below p0",
+  "objective": "q(p)*(p-c)+(1-q(p))*V(L)",
+  "global_solution": "max(p0,epsilon/(epsilon-1)*(c+V(L))); all illustrated optima are interior",
+  "small_markup_factor": 1.5,
+  "large_markup_factor": 2.0,
+  "waiting_threshold_gbp": 10.0,
+  "lead_threshold_days": 8.630462173553427,
+  "gap_function_gbp": "15 - 20*exp(-L/30)",
+  "gap_limit_gbp": 15.0,
+  "decomposition": "mu_small*(c_large-c_small) + (mu_large-mu_small)*(c_large+V)",
+  "decomposition_limit": "Algebraic accounting at a stated reference markup, not an empirical separation of mechanisms",
+  "checks": {
+    "numeric_optimizations": 18,
+    "global_derivative_signs": true,
+    "analytical_numeric_crossing_match": true,
+    "decomposition_matches_prices": true,
+    "cost_only_no_sign_change": true,
+    "demand_only_no_sign_change": true
+  }
+}
