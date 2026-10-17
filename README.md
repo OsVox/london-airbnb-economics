@@ -23,9 +23,11 @@
 .venv/bin/python helpers/split_comparison.py
 ```
 
-## Находка из SHAP: число ванных и тип жилья
+## ICE: общий обзор и разбор числа ванных
 
-В разделе **7.2.1** добавлен [кейс дополнительной ванной](docs/shap-bathroom-case.md) как расследование: сначала [зацепка — строка bathroom_count из общего SHAP-графика](figures/bathroom_shap_clue.png), затем [SHAP-взаимодействие](figures/bathroom_shap_interaction.png) и [ответ моделей при замене одной ванной на две](figures/bathroom_model_response.png). На исходном test XGBoost даёт +18,90% для целого жилья и −1,87% для отдельной комнаты; исходная OLS даёт +7,25% для обоих типов. Это разведочная находка о поведении моделей, а экономическое объяснение остаётся гипотезой. Код воспроизведения: `helpers/bathroom_case.py`; таблицы и методические сведения: `results/bathroom_*`.
+В разделе **7.2.1** добавлен [обзор ICE для 12 признаков](docs/ice-overview.md) ([график](figures/ice_overview.png)): индивидуальные ответы XGBoost, сводные линии и сравнение с OLS. Затем раздел **7.2.2** выделяет случай числа ванных: [индивидуальные кривые по типам жилья](figures/ice_bathroom_focus.png) и [сравнение validation/test и OLS](figures/bathroom_model_response.png). На исходном test замена одной ванной на две даёт +18,90% для целого жилья и −1,87% для отдельной комнаты. Данные и случай уже изучались; это наглядное разведочное расширение, а экономический механизм не установлен.
+
+Код: `helpers/ice_overview.py`, `helpers/bathroom_case.py`; все ответы, сводки и поддержка сохранены в `results/ice_overview_*`. [Исходный SHAP-разбор](docs/shap-bathroom-case.md), [зацепка](figures/bathroom_shap_clue.png) и [взаимодействие](figures/bathroom_shap_interaction.png) сохранены как дополнительные материалы. Для направления изменения прогноза в основном рассказе используется ICE.
 
 ## Основной результат и оговорки
 

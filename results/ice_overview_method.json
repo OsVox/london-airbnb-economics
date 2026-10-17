@@ -1,0 +1,78 @@
+{
+  "status": "Exploratory overview of already examined test data; bathroom pattern already known",
+  "sample": "Original uniform 1000 SHAP test rows, then feature-specific eligibility",
+  "eligibility": "Entire homes/private rooms, observed feature inside the displayed range; capacity/bedroom restrictions in code",
+  "grid": {
+    "accommodates": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "bedrooms": [
+      1,
+      2
+    ],
+    "bathroom_count": [
+      1,
+      1.5,
+      2
+    ],
+    "reviews_per_month": [
+      0.5,
+      1,
+      2,
+      3,
+      5
+    ],
+    "review_scores_cleanliness": [
+      4,
+      4.5,
+      4.8,
+      5
+    ],
+    "review_scores_rating": [
+      4.5,
+      4.7,
+      4.9,
+      5
+    ],
+    "host_days": [
+      180,
+      365,
+      730,
+      1825
+    ],
+    "host_listings_count": [
+      1,
+      2,
+      5,
+      10,
+      20
+    ],
+    "amenity_dishwasher": [
+      0,
+      1
+    ],
+    "amenity_air_conditioning": [
+      0,
+      1
+    ],
+    "amenity_dedicated_workspace": [
+      0,
+      1
+    ],
+    "amenity_dryer": [
+      0,
+      1
+    ]
+  },
+  "seed": 20261020,
+  "centering": "f(z,x_other)-f(grid_min,x_other); percent=100*expm1(delta)",
+  "summary": "100*expm1(mean delta log), not arithmetic mean of percentage responses",
+  "sign_threshold": "positive: delta_log > log(1.005); negative: delta_log < log(0.995)",
+  "support": "Marginal training counts in recorded windows, not joint support or a causal validity check",
+  "cautions": "Correlated inputs may create unusual combinations; group populations/ranges differ, so not a feature-importance ranking",
+  "training": "No refitting or model selection",
+  "exclusions": "No coordinate/distance or quote calendar changes, because dependent derived columns would require coordinated changes"
+}
