@@ -1,0 +1,392 @@
+{
+  "status": "Exploratory hypothesis found after inspecting existing ICE/test; no new independent test",
+  "outcome": "log(price_gbp)",
+  "cohort": "Entire home/apt or Private room; observed host_listings_count 1–20; quote_lead_days >= 0",
+  "specification": "Four count-by-lead-group slopes; group main effects; all other main-model controls including numeric lead",
+  "preprocessing": "Original train-fitted preprocessing; host_listings_count column replaced; SVD handles aliased controls",
+  "remaining_encoded_controls": [
+    "num__accommodates",
+    "num__bedrooms",
+    "num__beds",
+    "num__bathroom_count",
+    "num__bathroom_shared",
+    "num__host_days",
+    "num__minimum_nights",
+    "num__maximum_nights",
+    "num__number_of_reviews",
+    "num__reviews_per_month",
+    "num__review_scores_rating",
+    "num__review_scores_accuracy",
+    "num__review_scores_cleanliness",
+    "num__review_scores_checkin",
+    "num__review_scores_communication",
+    "num__quote_stay_nights",
+    "num__quote_lead_days",
+    "num__scrape_day",
+    "num__amenity_wifi",
+    "num__amenity_kitchen",
+    "num__amenity_washer",
+    "num__amenity_dryer",
+    "num__amenity_dishwasher",
+    "num__amenity_heating",
+    "num__amenity_air_conditioning",
+    "num__amenity_dedicated_workspace",
+    "num__amenity_parking",
+    "num__amenity_elevator",
+    "num__amenity_private_outdoor",
+    "num__amenity_pool",
+    "num__amenity_hot_tub",
+    "num__amenity_gym",
+    "num__amenity_breakfast",
+    "num__amenity_tv",
+    "num__amenity_self_checkin",
+    "num__amenity_smoke_alarm",
+    "num__amenity_carbon_monoxide_alarm",
+    "num__amenity_fire_extinguisher",
+    "num__amenity_first_aid",
+    "num__amenity_crib",
+    "num__amenity_high_chair",
+    "num__amenity_pets_allowed",
+    "num__amenity_luggage_dropoff",
+    "num__amenity_coffee_maker",
+    "num__amenity_oven",
+    "num__amenity_refrigerator",
+    "num__amenity_bathtub",
+    "num__amenity_hair_dryer",
+    "num__amenity_long_stays",
+    "num__distance_km",
+    "num__latitude",
+    "num__longitude",
+    "num__missingindicator_bedrooms",
+    "num__missingindicator_beds",
+    "num__missingindicator_bathroom_count",
+    "num__missingindicator_bathroom_shared",
+    "num__missingindicator_host_response_rate",
+    "num__missingindicator_host_acceptance_rate",
+    "num__missingindicator_minimum_nights",
+    "num__missingindicator_maximum_nights",
+    "num__missingindicator_reviews_per_month",
+    "num__missingindicator_review_scores_rating",
+    "num__missingindicator_review_scores_accuracy",
+    "num__missingindicator_review_scores_cleanliness",
+    "num__missingindicator_review_scores_checkin",
+    "num__missingindicator_review_scores_communication",
+    "cat__property_type_Entire cabin",
+    "cat__property_type_Entire condo",
+    "cat__property_type_Entire guest suite",
+    "cat__property_type_Entire guesthouse",
+    "cat__property_type_Entire home",
+    "cat__property_type_Entire loft",
+    "cat__property_type_Entire place",
+    "cat__property_type_Entire rental unit",
+    "cat__property_type_Entire serviced apartment",
+    "cat__property_type_Entire townhouse",
+    "cat__property_type_Private room",
+    "cat__property_type_Private room in bed and breakfast",
+    "cat__property_type_Private room in casa particular",
+    "cat__property_type_Private room in condo",
+    "cat__property_type_Private room in guest suite",
+    "cat__property_type_Private room in guesthouse",
+    "cat__property_type_Private room in home",
+    "cat__property_type_Private room in hostel",
+    "cat__property_type_Private room in loft",
+    "cat__property_type_Private room in rental unit",
+    "cat__property_type_Private room in serviced apartment",
+    "cat__property_type_Private room in townhouse",
+    "cat__property_type_Room in aparthotel",
+    "cat__property_type_Room in boutique hotel",
+    "cat__property_type_Room in hotel",
+    "cat__property_type_Room in serviced apartment",
+    "cat__property_type_Shared room in hostel",
+    "cat__property_type_Shared room in hotel",
+    "cat__property_type_Tiny home",
+    "cat__property_type_infrequent_sklearn",
+    "cat__room_type_Hotel room",
+    "cat__room_type_Private room",
+    "cat__room_type_Shared room",
+    "cat__host_is_superhost_t",
+    "cat__host_has_profile_pic_t",
+    "cat__host_identity_verified_t",
+    "cat__quote_month_10",
+    "cat__quote_month_11",
+    "cat__quote_month_12",
+    "cat__quote_month_2",
+    "cat__quote_month_3",
+    "cat__quote_month_4",
+    "cat__quote_month_5",
+    "cat__quote_month_6",
+    "cat__quote_month_7",
+    "cat__quote_month_8",
+    "cat__quote_month_9",
+    "cat__quote_weekday_1",
+    "cat__quote_weekday_2",
+    "cat__quote_weekday_3",
+    "cat__quote_weekday_4",
+    "cat__quote_weekday_5",
+    "cat__quote_weekday_6",
+    "cat__neighbourhood_cleansed_Barnet",
+    "cat__neighbourhood_cleansed_Bexley",
+    "cat__neighbourhood_cleansed_Brent",
+    "cat__neighbourhood_cleansed_Bromley",
+    "cat__neighbourhood_cleansed_Camden",
+    "cat__neighbourhood_cleansed_City of London",
+    "cat__neighbourhood_cleansed_Croydon",
+    "cat__neighbourhood_cleansed_Ealing",
+    "cat__neighbourhood_cleansed_Enfield",
+    "cat__neighbourhood_cleansed_Greenwich",
+    "cat__neighbourhood_cleansed_Hackney",
+    "cat__neighbourhood_cleansed_Hammersmith and Fulham",
+    "cat__neighbourhood_cleansed_Haringey",
+    "cat__neighbourhood_cleansed_Harrow",
+    "cat__neighbourhood_cleansed_Havering",
+    "cat__neighbourhood_cleansed_Hillingdon",
+    "cat__neighbourhood_cleansed_Hounslow",
+    "cat__neighbourhood_cleansed_Islington",
+    "cat__neighbourhood_cleansed_Kensington and Chelsea",
+    "cat__neighbourhood_cleansed_Kingston upon Thames",
+    "cat__neighbourhood_cleansed_Lambeth",
+    "cat__neighbourhood_cleansed_Lewisham",
+    "cat__neighbourhood_cleansed_Merton",
+    "cat__neighbourhood_cleansed_Newham",
+    "cat__neighbourhood_cleansed_Redbridge",
+    "cat__neighbourhood_cleansed_Richmond upon Thames",
+    "cat__neighbourhood_cleansed_Southwark",
+    "cat__neighbourhood_cleansed_Sutton",
+    "cat__neighbourhood_cleansed_Tower Hamlets",
+    "cat__neighbourhood_cleansed_Waltham Forest",
+    "cat__neighbourhood_cleansed_Wandsworth",
+    "cat__neighbourhood_cleansed_Westminster"
+  ],
+  "contrast": "1 to 20 listings: 19*b for raw count; log(20)*b for log count",
+  "percent": "100*expm1(log contrast); exp conditional mean log price, not arithmetic mean GBP",
+  "uncertainty": "CR1 cluster covariance by host_id; t(df=clusters-1), two-sided; joint Wald F",
+  "checks": "Primary coefficients and clustered covariance verified against direct full OLS; residual orthogonality checked for every fit",
+  "limitations": "Cross-sectional conditional associations, no within-listing price changes, prior hypothesis search not included in p-values",
+  "fits": [
+    {
+      "form": "raw_count",
+      "sample": "all",
+      "n": 46277,
+      "hosts": 28316,
+      "rank": 148,
+      "beta": [
+        -0.010352294495511076,
+        -0.004780898619848882,
+        0.003260204880614858,
+        0.00875681639316554
+      ],
+      "covariance": [
+        [
+          4.26101751433594e-06,
+          7.052377166758676e-07,
+          4.402311213904574e-07,
+          3.614501934304885e-07
+        ],
+        [
+          7.052377166758676e-07,
+          1.0898714073996652e-06,
+          5.375063495623778e-07,
+          4.044951499949435e-07
+        ],
+        [
+          4.402311213904574e-07,
+          5.375063495623778e-07,
+          1.0492216324876167e-06,
+          4.7063343414903496e-07
+        ],
+        [
+          3.614501934304885e-07,
+          4.044951499949435e-07,
+          4.7063343414903496e-07,
+          1.9438892608781205e-06
+        ]
+      ],
+      "equal_slopes_F": 40.66376716938134,
+      "df_num": 3,
+      "df_den": 28315,
+      "equal_slopes_p": 3.269836192676555e-26,
+      "control_orthogonality": 3.327335145303344e-13,
+      "focus_orthogonality": 5.1608932930033166e-17
+    },
+    {
+      "form": "raw_count",
+      "sample": "train",
+      "n": 27639,
+      "hosts": 16968,
+      "rank": 148,
+      "beta": [
+        -0.012284108031928549,
+        -0.005854542051170217,
+        0.003157466308834484,
+        0.006938461413233816
+      ],
+      "covariance": [
+        [
+          4.656974006338661e-06,
+          1.1099532652974985e-06,
+          7.261911398481668e-07,
+          7.693076733421204e-07
+        ],
+        [
+          1.1099532652974985e-06,
+          1.7751054906690514e-06,
+          8.369419600566313e-07,
+          8.361548228968073e-07
+        ],
+        [
+          7.261911398481668e-07,
+          8.369419600566313e-07,
+          1.4243966123458188e-06,
+          9.268663810959545e-07
+        ],
+        [
+          7.693076733421204e-07,
+          8.361548228968073e-07,
+          9.268663810959545e-07,
+          3.624622542741208e-06
+        ]
+      ],
+      "equal_slopes_F": 31.385161104167448,
+      "df_num": 3,
+      "df_den": 16967,
+      "equal_slopes_p": 3.185211850452625e-20,
+      "control_orthogonality": 8.38997645063921e-14,
+      "focus_orthogonality": 8.688882469970571e-17
+    },
+    {
+      "form": "raw_count",
+      "sample": "validation",
+      "n": 9257,
+      "hosts": 5678,
+      "rank": 144,
+      "beta": [
+        -0.012136176385687363,
+        -0.004191239912354028,
+        0.002461046352211368,
+        0.015722428053048847
+      ],
+      "covariance": [
+        [
+          2.1640245685861957e-05,
+          1.6701660202283062e-06,
+          1.4422400661322013e-06,
+          1.115924204793279e-06
+        ],
+        [
+          1.6701660202283062e-06,
+          4.538925806157284e-06,
+          2.653520752243417e-06,
+          1.3380262902585835e-06
+        ],
+        [
+          1.4422400661322013e-06,
+          2.653520752243417e-06,
+          3.995442249903434e-06,
+          1.7485890504971134e-06
+        ],
+        [
+          1.115924204793279e-06,
+          1.3380262902585835e-06,
+          1.7485890504971134e-06,
+          8.940571024277355e-06
+        ]
+      ],
+      "equal_slopes_F": 15.862545945811783,
+      "df_num": 3,
+      "df_den": 5677,
+      "equal_slopes_p": 2.86634965947848e-10,
+      "control_orthogonality": 5.013680061039487e-14,
+      "focus_orthogonality": 8.591150935018522e-17
+    },
+    {
+      "form": "raw_count",
+      "sample": "holdout",
+      "n": 9381,
+      "hosts": 5670,
+      "rank": 147,
+      "beta": [
+        -0.00510488881113615,
+        -0.0033709019047243943,
+        0.0032144907521992074,
+        0.0073283988479157436
+      ],
+      "covariance": [
+        [
+          3.162825861656529e-05,
+          4.586027664209646e-06,
+          2.421793110820681e-06,
+          9.617157809510339e-07
+        ],
+        [
+          4.586027664209646e-06,
+          5.227672858354145e-06,
+          2.1220245918447927e-06,
+          9.920701533047566e-07
+        ],
+        [
+          2.421793110820681e-06,
+          2.1220245918447927e-06,
+          6.775542973530249e-06,
+          1.553357790881718e-06
+        ],
+        [
+          9.617157809510339e-07,
+          9.920701533047566e-07,
+          1.553357790881718e-06,
+          5.494636012766646e-06
+        ]
+      ],
+      "equal_slopes_F": 4.691178935127809,
+      "df_num": 3,
+      "df_den": 5669,
+      "equal_slopes_p": 0.002828138439563671,
+      "control_orthogonality": 1.4077341035203895e-12,
+      "focus_orthogonality": 2.4781040137963914e-17
+    },
+    {
+      "form": "log_count",
+      "sample": "all",
+      "n": 46277,
+      "hosts": 28316,
+      "rank": 148,
+      "beta": [
+        -0.05850153048548781,
+        -0.026159278739506516,
+        0.013126304564819231,
+        0.03572836390536248
+      ],
+      "covariance": [
+        [
+          8.24008597613736e-05,
+          1.1905461061822341e-05,
+          7.0197428628338605e-06,
+          6.358022655940284e-06
+        ],
+        [
+          1.1905461061822341e-05,
+          2.2428025017123165e-05,
+          9.149226751883437e-06,
+          6.973560131521997e-06
+        ],
+        [
+          7.0197428628338605e-06,
+          9.149226751883437e-06,
+          2.0078320635079725e-05,
+          8.212242694963854e-06
+        ],
+        [
+          6.358022655940284e-06,
+          6.973560131521997e-06,
+          8.212242694963854e-06,
+          3.901005571412386e-05
+        ]
+      ],
+      "equal_slopes_F": 44.968061497588906,
+      "df_num": 3,
+      "df_den": 28315,
+      "equal_slopes_p": 5.554030748887773e-29,
+      "control_orthogonality": 3.327335145303344e-13,
+      "focus_orthogonality": 5.411956423030278e-17
+    }
+  ]
+}
