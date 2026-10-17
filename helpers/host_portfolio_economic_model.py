@@ -1,4 +1,7 @@
-"""Illustrative common-waiting-value model; no parameters estimated from Airbnb."""
+"""Earlier different-elasticity illustration; current model is host_portfolio_cost_model.py.
+
+This alternative is retained for reproducibility. Its parameters were not estimated from Airbnb.
+"""
 from pathlib import Path
 import json
 

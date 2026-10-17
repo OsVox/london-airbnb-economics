@@ -15,10 +15,10 @@ for i,part in enumerate(parts):
         cells.append(nb.v4.new_code_cell('''from pathlib import Path
 import pandas as pd
 from IPython.display import display, Image
-from helpers.host_portfolio_economic_model import build
+from helpers.host_portfolio_cost_model import build
 theory_examples, theory_method = build()
 def theory_figure(name):
-    display(Image(filename=str(Path('figures') / f'host_portfolio_model_{name}.png')))
+    display(Image(filename=str(Path('figures') / f'host_portfolio_cost_model_{name}.png')))
 ''',id='portfolio-theory-compute',metadata={'jupyter':{'source_hidden':True}}))
     if i in [2,5,6]:
         name={2:'inputs',5:'solution',6:'scenarios'}[i]

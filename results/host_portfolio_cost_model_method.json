@@ -1,0 +1,38 @@
+{
+  "status": "Illustrative proposed model; no parameters estimated or calibrated to Airbnb",
+  "parameters": {
+    "regular_price": 150.0,
+    "discount_price": 100.0,
+    "high_guest_probability": 0.3,
+    "budget_guest_probability": 0.3,
+    "small_cost": 70.0,
+    "large_cost": 40.0,
+    "small_N": 1,
+    "large_N": 20,
+    "max_opportunities": 30
+  },
+  "only_host_heterogeneity": "Variable service cost c(N); risk-neutral expected profit; identical demand and opportunities",
+  "cost_function": "70 - 30*ln(N)/ln(20), for N in [1,20]",
+  "timing": "0 days means the final booking opportunity, then the night expires; one opportunity per day is an assumption",
+  "demand": "Same at every date and for every host: high guest with probability .3, budget guest .3, no guest .4",
+  "price_choice": "Any p>=0; global optimal candidates are H=150, D=100 and waiting. These are not exogenous price restrictions.",
+  "discount_cannibalization": "One public price applies also to guests willing to pay H; no guest-specific price discrimination",
+  "bellman": "V_0(c)=0; V_r(c)=max{a*(H-c)+(1-a)*V_(r-1), (a+b)*(D-c)+(1-a-b)*V_(r-1), V_(r-1)}",
+  "discount_gain": "b*(D-c-V_(r-1)) - a*(H-D)",
+  "terminal_cost_threshold": 50.0,
+  "waiting_threshold": "D-c - a*(H-D)/b; discount if endogenous continuation value is below this threshold",
+  "portfolio_threshold_same_day": 7.368062997280773,
+  "endogenous_waiting_value": "Differs only as a consequence of cost; no direct N-specific future-demand advantage is assumed",
+  "scope": "One representative unbooked listing-night; total host portfolio N stays fixed as inventory sells. Linear expected profit makes listings separable.",
+  "limitations": "Two willingness-to-pay points and one opportunity/day simplify demand and timing. No claim to explain the positive early Airbnb portfolio premium.",
+  "checks": {
+    "unrestricted_price_grid_states": 600,
+    "exhaustive_schedule_comparisons": 16,
+    "enumerated_schedules": 480,
+    "closed_form_values_match": true,
+    "discount_gain_decomposition_matches": true,
+    "small_never_discounts": true,
+    "large_discounts_only_final_day": true,
+    "identical_costs_imply_identical_policy": true
+  }
+}
