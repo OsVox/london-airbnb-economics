@@ -15,6 +15,23 @@ PARAMETERS={'regular_price':150.,'discount_price':100.,'high_guest_probability':
     'budget_guest_probability':.3,'small_cost':70.,'large_cost':40.,'small_N':1,'large_N':20,
     'max_opportunities':30}
 SMALL,LARGE,REGULAR,DISCOUNT='#176B82','#9866A4','#176B82','#D48743'
+NOTEBOOK_INTRO=r'''#### 7.2.4. Простой механизм: почему скидка перед заездом выгодна крупному хозяину
+
+В OLS связь портфеля с ценой различалась по сроку до заезда. Теперь построим небольшой теоретический пример: может ли одна экономия на масштабе объяснить, почему крупный хозяин снижает цену в последний момент, а маленький сохраняет прежнюю?
+
+Рассматриваем ещё свободную ночь одного объекта. У всех хозяев одинаковый спрос и одинаковые возможности продать её: в каждый день с вероятностью 30% приходит гость, готовый заплатить £150, с вероятностью 30% — гость с бюджетом £100, с вероятностью 40% бронирования нет. Поэтому при цене £150 вероятность продажи равна 30%, при £100 — 60%. Публичная скидка достаётся и гостям, которые заплатили бы полную цену.
+
+**Единственное различие хозяев — переменные издержки занятой ночи:** £70 у малого и £40 у крупного благодаря экономии на масштабе. Оба могут свободно менять цену и максимизируют ожидаемую прибыль. Цена может быть любой, но при двух уровнях готовности платить лучший вариант достигается при £100, £150 или ожидании: промежуточная цена теряет выручку без прироста спроса.
+
+Если будущая возможность продать ночь стоит $V$, задача текущего дня:
+
+$$\max_{p\ge0}\;q(p)(p-c)+[1-q(p)]V.$$
+
+Первое слагаемое — прибыль от продажи сейчас, второе — прибыль от следующей возможности, если гость отказался. Решаем с конца: в день заезда $V=0$, поскольку непроданная ночь затем исчезает. Полученную максимальную прибыль используем как $V$ для предыдущего дня. Поэтому ценность ожидания вычисляется из задачи и различается между хозяевами только вследствие разных издержек. Ниже все суммы относятся к одному ещё свободному объекту.'''
+NOTEBOOK_CODE='''from importlib import reload
+from helpers import host_portfolio_cost_model as cost_model
+cost_example, cost_method = reload(cost_model).show_notebook_example()
+'''
 
 
 def cost(N,p=PARAMETERS):
@@ -224,6 +241,45 @@ def save(figure,path):
     figure.savefig(str(path)+'.png',dpi=165,bbox_inches='tight')
     svg=Path(str(path)+'.svg');figure.savefig(svg,bbox_inches='tight')
     svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n');plt.close(figure)
+
+
+def show_notebook_example(root=ROOT):
+    """Compact worked tables for the main empirical notebook, computed from the solved model."""
+    from IPython.display import display,Image,Markdown,HTML
+    root=Path(root);examples,method=build(root)
+    p=PARAMETERS;H,D=p['regular_price'],p['discount_price'];a,b=p['high_guest_probability'],p['budget_guest_probability']
+    def number(value):
+        return (f'{value:.0f}' if np.isclose(value,round(value)) else f'{value:.2f}').replace('.',',')
+    today=[];early=[]
+    for N,label in [(1,'Малый'),(20,'Крупный')]:
+        q=examples[examples.N.eq(N)]
+        t=q[q.days_before_checkin.eq(0)].iloc[0];e=q[q.days_before_checkin.eq(1)].iloc[0]
+        c=t.cost_gbp;v=e.continuation_value_gbp
+        today.append({'Хозяин':label,'Издержки':f'£{number(c)}',
+            'При цене £150':f'{number(a)} × ({number(H)} − {number(c)}) = £{number(t.regular_expected_profit_gbp)}',
+            'При цене £100':f'{number(a+b)} × ({number(D)} − {number(c)}) = £{number(t.discount_expected_profit_gbp)}',
+            'Выбор цены':f'£{number(t.optimal_price_gbp)}'})
+        early.append({'Хозяин':label,'Ожидание V':f'£{number(v)}',
+            'При цене £150':f'{number(t.regular_expected_profit_gbp)} + {number(1-a)} × {number(v)} = £{number(e.regular_expected_profit_gbp)}',
+            'При цене £100':f'{number(t.discount_expected_profit_gbp)} + {number(1-a-b)} × {number(v)} = £{number(e.discount_expected_profit_gbp)}',
+            'Выбор цены':f'£{number(e.optimal_price_gbp)}'})
+    today=pd.DataFrame(today);early=pd.DataFrame(early)
+    today.to_csv(root/'results/host_portfolio_cost_model_worked_today.csv',index=False)
+    early.to_csv(root/'results/host_portfolio_cost_model_worked_early.csv',index=False)
+    display(Markdown('**В день заезда: ждать уже нельзя.** Сравниваем ожидаемую прибыль от полной цены и скидки. У крупного хозяина дополнительные гости окупают меньшую выручку с каждого бронирования; у малого — нет.'))
+    display(HTML(today.to_html(index=False)))
+    display(Markdown('**За день до заезда: остаётся ещё одна попытка.** Если сегодня не купят, завтра малый хозяин сможет заработать в среднем £24, крупный — £36. Поэтому к текущей прибыли добавляем ценность этой возможности с вероятностью отказа гостя: 70% при полной цене и 40% при скидке.'))
+    display(HTML(early.to_html(index=False)))
+    display(Markdown('Заранее оба выбирают **£150**. Когда наступает день заезда, малый сохраняет **£150**, а крупный снижает цену до **£100**. Это результат решения задачи: скидка не запрещена ни одному типу.'))
+    display(Image(filename=str(root/'figures/host_portfolio_cost_model_solution.png')))
+    display(Markdown(r'''**Общее условие решения.** Выигрыш от скидки вместо полной цены:
+
+$$\Delta\Pi=0{,}3(100-c)-0{,}3(150-100)-0{,}3V=0{,}3(50-c-V).$$
+
+Первый член — прибыль от дополнительных бюджетных гостей; второй — потеря выручки от тех, кто заплатил бы полную цену; третий — потеря будущей возможности для дополнительно проданных ночей. Скидка выгодна, если **$c+V<£50$**. В день заезда $V=0$: у крупного издержки £40, условие выполняется; у малого £70, не выполняется. За день до заезда у крупного $c+V=40+36=76$, поэтому он тоже сохраняет полную цену. При одинаковых издержках решения двух хозяев совпадают.
+
+**Что это даёт проекту.** Модель показывает возможный механизм разных скидок перед заездом при одинаковом спросе. Положительную премию крупного хозяина заранее она не объясняет: в этом примере заранее оба ставят £150. Все числа и одна возможность продажи в день заданы для иллюстрации; OLS не оценивала эти издержки и не наблюдала изменения цены одного объекта во времени. Поэтому это теоретическое объяснение для дальнейшей проверки. Полный вывод, три графика и проверки решения находятся в [отдельном теоретическом ноутбуке](host_portfolio_economic_model.ipynb).'''))
+    return examples,method
 
 
 if __name__=='__main__':
