@@ -71,10 +71,11 @@
     "Microsoft PowerPoint application was not opened.",
     "17 October 2026: section 6 extended with a computed single-validation vs grouped-CV chart; notebook re-executed in a clean kernel. The reviewed PPTX and PDF are unchanged.",
     "17 October 2026: section 6 narrative rewritten with the humanizer skill, including experiment designs, calculated results and interpretation limits. Code cells and executed outputs preserved exactly.",
-    "17 October 2026: section 7.1 rewritten with the humanizer skill to explain grouped permutation importance, the six measured group results and interpretation limits. Verified rendered text in the live Chrome notebook. Code cells and executed outputs preserved exactly; models were not rerun."
+    "17 October 2026: section 7.1 rewritten with the humanizer skill to explain grouped permutation importance, the six measured group results and interpretation limits. Verified rendered text in the live Chrome notebook. Code cells and executed outputs preserved exactly; models were not rerun.",
+    "17 October 2026: all six Markdown cells after section 7.1 rewritten with the humanizer skill: TreeSHAP, rating response, local errors, conclusions, economic limitations and reproducibility. Checked rendered sections in Chrome and confirmed saved live text matches. Code, outputs and execution counts preserved in both notebooks; no model rerun or presentation revision claimed."
   ],
   "final_artifacts_sha256": {
-    "london_airbnb_group_project.ipynb": "d583c0594d87925c9f3a508996a8436cee03a6983aac39c6968477563cf9bb90",
+    "london_airbnb_group_project.ipynb": "1472162fee6e12f31798811135dca481a95a91a8b02ff8d1a12f31c9b5fc476e",
     "london_airbnb_group_project.pptx": "f1f51d54802ee2c587ba22d1b820ed73f86869bc20ebb715b598f068288eabb5",
     "london_airbnb_group_project.pdf": "d17aae5a6d8ccf94ad2a0f2a0dde66bf34ff0cc5cff79a8148134c74b3d7537f",
     "speaker_notes.txt": "378cb87aaa620619a06d66d725e018e5165b139cc9350c88367427850c8b6201"
