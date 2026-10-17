@@ -73,10 +73,11 @@
     "17 October 2026: section 6 narrative rewritten with the humanizer skill, including experiment designs, calculated results and interpretation limits. Code cells and executed outputs preserved exactly.",
     "17 October 2026: section 7.1 rewritten with the humanizer skill to explain grouped permutation importance, the six measured group results and interpretation limits. Verified rendered text in the live Chrome notebook. Code cells and executed outputs preserved exactly; models were not rerun.",
     "17 October 2026: all six Markdown cells after section 7.1 rewritten with the humanizer skill: TreeSHAP, rating response, local errors, conclusions, economic limitations and reproducibility. Checked rendered sections in Chrome and confirmed saved live text matches. Code, outputs and execution counts preserved in both notebooks; no model rerun or presentation revision claimed.",
-    "17 October 2026: section 7.2.1 added with reproducible exact SHAP interactions and bathroom-count response contrasts. Both new figures visually checked; new cell executed in an isolated kernel and the live Chrome notebook. All prior canonical and live cells preserved exactly. PPTX/PDF unchanged. Selection is exploratory, not new significance or causal evidence."
+    "17 October 2026: section 7.2.1 added with reproducible exact SHAP interactions and bathroom-count response contrasts. Both new figures visually checked; new cell executed in an isolated kernel and the live Chrome notebook. All prior canonical and live cells preserved exactly. PPTX/PDF unchanged. Selection is exploratory, not new significance or causal evidence.",
+    "17 October 2026: section 7.2.1 reordered into an investigation beginning with the isolated bathroom_count SHAP row, then interactions, direct model contrasts and economic interpretation. Three figures and interleaved explanations executed in isolated and live kernels. Original SHAP values, colours and jitter checked; response results unchanged. Code input collapsed for this case only. Other cells preserved."
   ],
   "final_artifacts_sha256": {
-    "london_airbnb_group_project.ipynb": "9dd8e97347076666d8dbfa51300983c01020a134f5f9f4b4dcec399d297bd5f2",
+    "london_airbnb_group_project.ipynb": "dd33f1fd3be4358376352cbd7a6f6cada9bef6bf730e084f8a2071b0919c0ca7",
     "london_airbnb_group_project.pptx": "f1f51d54802ee2c587ba22d1b820ed73f86869bc20ebb715b598f068288eabb5",
     "london_airbnb_group_project.pdf": "d17aae5a6d8ccf94ad2a0f2a0dde66bf34ff0cc5cff79a8148134c74b3d7537f",
     "speaker_notes.txt": "378cb87aaa620619a06d66d725e018e5165b139cc9350c88367427850c8b6201"
