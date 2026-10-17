@@ -1,0 +1,11 @@
+{
+  "status": "exploratory, selected after looking at existing test data",
+  "method": "Exact native TreeSHAP interactions; symmetric entries summed for a full pair",
+  "aggregation": "Sum over encoded columns. Not a separately computed grouped Shapley game.",
+  "shap_sample": "Same 1000 rows as section 7.2; contribution sums checked",
+  "response_sample": "Existing validation/test, original bathroom_count in [1,2], entire homes/private rooms",
+  "contrast": "bathroom_count 1->2, all other inputs including bathroom_shared fixed",
+  "percentage": "100 * expm1(mean delta log prediction)",
+  "training": "No models or preprocessing fitted here",
+  "interpretation": "Model behaviour; economic mechanism unproved; no significance test"
+}

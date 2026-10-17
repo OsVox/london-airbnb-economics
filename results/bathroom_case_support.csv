@@ -1,0 +1,13 @@
+split,room_type,bathroom_count,n
+holdout,Entire home/apt,1.0,5144
+holdout,Entire home/apt,2.0,1601
+holdout,Private room,1.0,2686
+holdout,Private room,2.0,313
+train,Entire home/apt,1.0,15705
+train,Entire home/apt,2.0,4908
+train,Private room,1.0,8210
+train,Private room,2.0,957
+validation,Entire home/apt,1.0,4797
+validation,Entire home/apt,2.0,1587
+validation,Private room,1.0,2710
+validation,Private room,2.0,245

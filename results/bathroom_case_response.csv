@@ -1,0 +1,5 @@
+split,room_type,n,mean_delta_log,xgb_change_pct,ols_change_pct,xgb_positive_share
+validation,Entire home/apt,6850,0.17524034,19.153255,7.252558898294162,1.0
+validation,Private room,3395,-0.019015228,-1.883558,7.252558898294156,0.07569955817378497
+holdout,Entire home/apt,7220,0.17307657,18.895714,7.2525588982941604,1.0
+holdout,Private room,3414,-0.018830413,-1.865423,7.252558898294158,0.08611599297012303
