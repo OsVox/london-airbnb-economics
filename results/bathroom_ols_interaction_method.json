@@ -1,0 +1,8 @@
+{
+  "status": "Exploratory specification check after inspecting existing test results",
+  "term": "bathroom_count * I(room_type == Private room)",
+  "training": "Original train only, original fitted preprocessing, no tuning",
+  "missing_bathroom_count": "Training median used for the product term",
+  "new_term_coefficient": -0.18998401353225144,
+  "interpretation": "Correction of an omitted interaction, not proof of absence of unobserved confounding"
+}
