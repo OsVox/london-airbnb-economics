@@ -68,10 +68,11 @@
     "All 18 main slides and all 36 appendix slides were inspected. Changed slides were rechecked after export.",
     "Estimated table-text overflow warnings for slides 21, 22 and 24 were checked visually: text fits within cells.",
     "LibreOffice dropped scatter series on page 34. Final PDF page 34 uses the matching high-resolution Artifact Tool render with all point groups. PPTX retains native editable charts.",
-    "Microsoft PowerPoint application was not opened."
+    "Microsoft PowerPoint application was not opened.",
+    "17 October 2026: section 6 extended with a computed single-validation vs grouped-CV chart; notebook re-executed in a clean kernel. The reviewed PPTX and PDF are unchanged."
   ],
   "final_artifacts_sha256": {
-    "london_airbnb_group_project.ipynb": "538f4906fd526ca8530b303bc0dfa7e4524be59d94fff3c98b4514c94fd08345",
+    "london_airbnb_group_project.ipynb": "80ed690789fc3bc29f6e99d5e8c63049423c2f2e7e05d572729c0de42eaa8ea5",
     "london_airbnb_group_project.pptx": "f1f51d54802ee2c587ba22d1b820ed73f86869bc20ebb715b598f068288eabb5",
     "london_airbnb_group_project.pdf": "d17aae5a6d8ccf94ad2a0f2a0dde66bf34ff0cc5cff79a8148134c74b3d7537f",
     "speaker_notes.txt": "378cb87aaa620619a06d66d725e018e5165b139cc9350c88367427850c8b6201"
